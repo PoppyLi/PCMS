@@ -1,0 +1,26 @@
+@charset "utf-8";
+/**头部**/
+.boxed h3{ color:#006dcc; font-size:18px;}
+.input-append .add-on, .input-prepend .add-on{ height:24px; font-size:24px;color:#ddd; padding:9px 5px;}
+.input-append input, .input-prepend input{ height:34px;line-height:34px; font-size:16px; width:219px; font-weight:bold;}
+.control-group .input-append, .control-group .input-prepend{border-radius:5px; padding:0 5px; background:#fff;}
+.boxed .boxed-footer{ padding:20px 25px;}
+
+.boxed-footer .btn-primary,.boxed-footer .btn-success{ width:100px; border-radius:5px; height:36px; font-weight:bold; font-size:16px;}
+.boxed-footer .btn-success{ line-height:28px;height:28px; background-color:#006dcc;}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  color: #ffffff;
+  background-color: #0044cc;
+  *background-color: #003bb3;
+}
+.btn-success:active,
+.btn-success.active {
+  background-color: #003399  \9;
+}
+.control-group.success .input-prepend, .control-group.success .input-append{border:1px solid #468847}
+.boxed .boxed-inner{ padding:5px 20px;}
