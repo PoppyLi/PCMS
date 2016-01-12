@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50612
 File Encoding         : 65001
 
-Date: 2016-01-12 19:02:48
+Date: 2016-01-12 19:12:13
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -379,7 +379,7 @@ CREATE TABLE `pcms_log` (
   `ip` varchar(20) NOT NULL COMMENT 'IP地址',
   `timeline` int(11) NOT NULL COMMENT '时间线',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1824 DEFAULT CHARSET=utf8 COMMENT='操作日志';
+) ENGINE=MyISAM AUTO_INCREMENT=1828 DEFAULT CHARSET=utf8 COMMENT='操作日志';
 
 -- ----------------------------
 -- Records of pcms_log
@@ -413,7 +413,7 @@ CREATE TABLE `pcms_manager` (
 -- ----------------------------
 -- Records of pcms_manager
 -- ----------------------------
-INSERT INTO `pcms_manager` VALUES ('1', 'admin', '超级用户', 'ed01a71f99b2d1bb54201d0be5d01889', '1', '123@abc.com', '', '', '', '1', '0', '0', '0.0.0.0', '1376471117', '1452596113', '1', '1389317880');
+INSERT INTO `pcms_manager` VALUES ('1', 'admin', '超级用户', 'ed01a71f99b2d1bb54201d0be5d01889', '1', '123@abc.com', '', '', '', '1', '0', '0', '0.0.0.0', '1376471117', '1452596842', '1', '1389317880');
 
 -- ----------------------------
 -- Table structure for pcms_manager_group
@@ -430,8 +430,8 @@ CREATE TABLE `pcms_manager_group` (
 -- ----------------------------
 -- Records of pcms_manager_group
 -- ----------------------------
-INSERT INTO `pcms_manager_group` VALUES ('2', '7afb566e83d3dca2d8a47c8cc29e7e36,ff2fa0336fe8fbc6a51c4707aa47c3e3,a155574e57e9a8a0d0c6ecb1c511da68,fddc215a132fa97ca3c193f1cae5cf9f,c54e594684ebf2862c75ba29d83f71be,2ebbbd65b4e2fc52a3ce44de2160e8d2,12fb6543af2e5541b0fc4f8fdd950be0,8d2159c1e0cf70473e66866eb026e80f,c166381208e23d3f4d65dec1231ccf76,a87d77b65f6d1e8380b3d05290a994d0,430f99bc176c67ec705091d6a5da07d4,d230f6a24270b02237beb82a23e2742f,54b064097df1ab924354f87efcdc4ea0,2338d4221db8f9c52bcc2d64ee436b23,70fc54e47310e38ef19160c17ecd91af,ad92c9d2ad1d512ea852e8ae88f762ff,d0101b9aa277c72e45d078dd8369fc65', '用户', 'users');
-INSERT INTO `pcms_manager_group` VALUES ('3', '4115dd2b6affc9e3626c695e398f335a,7afb566e83d3dca2d8a47c8cc29e7e36,ff2fa0336fe8fbc6a51c4707aa47c3e3,bfc0ef3829e8d84dfc8d31e5edc26d0f,a155574e57e9a8a0d0c6ecb1c511da68,fddc215a132fa97ca3c193f1cae5cf9f,7d5101dc315695e13463ffdf708b5865,a2756c433a39a2319e61bcd68a758265,5341fd0c5de128ab7979a7414b2e586a,e537f9c0308cbfeb6ee40b4e4c344947,35845fea21044129353364ba21f144a0,efdb91a0f150375b423d8361d254241f,a3c8c3d444880bda2a553b8f3eb6695b,4141c0f8e6a977cd7048cd9d751af350,bbff3957029793ef5163df61fbe018a5,dbc10e6bbc54c0ea6f49e604839f5526,048c50d364a23dfcec0a87aa49e19eb8,c54e594684ebf2862c75ba29d83f71be,3345e3e48188396dc21242fb119ba6b1,a93b06daaedb7fd811ab57131fabc630,af47d02385ccc820bce012061718aff8,78b231e4efafea1d14789b0ad8941cf2,bef23131580195c4a411d4222ef68c9f,214ea1a7fecff45a8447cea07943d068', '访客', 'guest');
+INSERT INTO `pcms_manager_group` VALUES ('2', 'ff2fa0336fe8fbc6a51c4707aa47c3e3,a155574e57e9a8a0d0c6ecb1c511da68,fddc215a132fa97ca3c193f1cae5cf9f,c54e594684ebf2862c75ba29d83f71be', '用户', 'users');
+INSERT INTO `pcms_manager_group` VALUES ('3', 'bfc0ef3829e8d84dfc8d31e5edc26d0f,fddc215a132fa97ca3c193f1cae5cf9f', '访客', 'guest');
 INSERT INTO `pcms_manager_group` VALUES ('1', 'a634cc19664a4f86577556784da60940,7afb566e83d3dca2d8a47c8cc29e7e36,ff2fa0336fe8fbc6a51c4707aa47c3e3,bfc0ef3829e8d84dfc8d31e5edc26d0f,a155574e57e9a8a0d0c6ecb1c511da68,fddc215a132fa97ca3c193f1cae5cf9f,52b7869014f743535798ba509432feb1,a2756c433a39a2319e61bcd68a758265,5341fd0c5de128ab7979a7414b2e586a,e537f9c0308cbfeb6ee40b4e4c344947,c2bc4d65c38311ab74b9dc39680d82df,efdb91a0f150375b423d8361d254241f,a3c8c3d444880bda2a553b8f3eb6695b,4141c0f8e6a977cd7048cd9d751af350,3045880458ee8b8734bf6b3307acd0d5,dbc10e6bbc54c0ea6f49e604839f5526,048c50d364a23dfcec0a87aa49e19eb8,c54e594684ebf2862c75ba29d83f71be,3345e3e48188396dc21242fb119ba6b1,2ebbbd65b4e2fc52a3ce44de2160e8d2,12fb6543af2e5541b0fc4f8fdd950be0,8d2159c1e0cf70473e66866eb026e80f,c166381208e23d3f4d65dec1231ccf76,3025704bb00b809798194964bccb8d3d,60decd16ccd83e013261697b7cc93bc6,7847598074d20e5abc220cb05a606213,afef320193ab13431e6b085c847b8094,9b4b25e0ea18183e9b085cc116246220,2e0115348725a3f383d8daa4354c7c3a,524c66aa98b226bd78bc7e7ad0423de7,66bfe11515e892dbf8bb4a5a92792e8b,50b03d671787f35800682c10c90a75bf,a1873764d0aa66fa9c6d34e16dcc86c2,0e69c6f28f25c24fe241da13093f9b12,6d119f7ae0c3c090ed51e672203c000f,7ff25ae6e8120b5ae5b5fb7b86a11641,53a396649c27c4e0dbd96fe57c2377e9,f59d0f67b7223a083e4449d583e90307,a41e16b61dd21e98c8143409d807890b,e44bd2f89f2820521a93c981c8af920d,f729102b0a0a547d20a4322e2d12cf71,7cf04cb70fa2f26d449acfb7974fd417,a7cd680c1676df4fdb93e7bdd83d6b3c,5f667ab7322f039e4e7e0ba8b04edf2f,6470d2304686b20640688c6d9dc44b46,df53f98d0b09ef3173cc8d594671fa6f,051071e245077a8126a4607e2148f327,224a58fde770d8718f7c06ac852fd9ae,0309718bf1a4785dcbf1e34461213c3e,d174c0a461db66945abcd861216dd94a,494b71b75af1e63c628544872f3c54d4,454f6e4ce4e57bd58eefda7d3fea1fa5,a87d77b65f6d1e8380b3d05290a994d0,430f99bc176c67ec705091d6a5da07d4,d230f6a24270b02237beb82a23e2742f,e5ba15d009798276692f84b4e0c9c1e9,026e09db119a340d72c2d5a611dfedb1,33a3ca4433131ad797eb4a7ff8bdb40b,87f64ed3bd52c1d6396fcb9908cb7fdf', '管理员', 'root');
 
 -- ----------------------------
@@ -447,11 +447,30 @@ CREATE TABLE `pcms_manager_purview` (
   `title` varchar(50) NOT NULL COMMENT '权限名称',
   `status` int(1) NOT NULL DEFAULT '0' COMMENT '是否使用权限',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=600 DEFAULT CHARSET=utf8 COMMENT='用户组权限';
+) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=utf8 COMMENT='用户组权限';
 
 -- ----------------------------
 -- Records of pcms_manager_purview
 -- ----------------------------
+INSERT INTO `pcms_manager_purview` VALUES ('1', 'configs', 'index', '', 'fddc215a132fa97ca3c193f1cae5cf9f', '配置查看', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('2', 'configs', 'set', '', 'a155574e57e9a8a0d0c6ecb1c511da68', '配置修改', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('3', 'columns', 'index', '', 'bfc0ef3829e8d84dfc8d31e5edc26d0f', '栏目列表', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('4', 'columns', 'create', '', 'ff2fa0336fe8fbc6a51c4707aa47c3e3', '栏目添加', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('5', 'columns', 'edit', '', '7afb566e83d3dca2d8a47c8cc29e7e36', '栏目修改', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('6', 'columns', 'delete', '', '4115dd2b6affc9e3626c695e398f335a', '栏目删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('7', 'modules', 'index', '', 'c54e594684ebf2862c75ba29d83f71be', '模型查看', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('8', 'modules', 'create', '', '048c50d364a23dfcec0a87aa49e19eb8', '模型添加', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('9', 'modules', 'edit', '', 'dbc10e6bbc54c0ea6f49e604839f5526', '模型修改', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('10', 'modules', 'delete', '', 'bbff3957029793ef5163df61fbe018a5', '删除模型', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('11', 'manager_purview', 'index', '', '4141c0f8e6a977cd7048cd9d751af350', '权限管理', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('12', 'manager_purview', 'create', '', 'a3c8c3d444880bda2a553b8f3eb6695b', '权限添加', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('13', 'manager_purview', 'edit', '', 'efdb91a0f150375b423d8361d254241f', '权限修改', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('14', 'manager_purview', 'delete', '', '35845fea21044129353364ba21f144a0', '权限删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('15', 'manager_group', 'index', '', 'e537f9c0308cbfeb6ee40b4e4c344947', '用户组查看', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('16', 'manager_group', 'create', '', '5341fd0c5de128ab7979a7414b2e586a', '用户组添加', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('17', 'manager_group', 'edit', '', 'a2756c433a39a2319e61bcd68a758265', '用户组修改', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('18', 'manager_group', 'delete', '', '7d5101dc315695e13463ffdf708b5865', '用户组删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('19', 'upload', 'uploado', '', '3345e3e48188396dc21242fb119ba6b1', '上传', '1');
 
 -- ----------------------------
 -- Table structure for pcms_modules
@@ -1106,7 +1125,8 @@ CREATE TABLE `pcms_sessions_adminer` (
 -- ----------------------------
 -- Records of pcms_sessions_adminer
 -- ----------------------------
-INSERT INTO `pcms_sessions_adminer` VALUES ('2b712f7596ae11535a2c92bf276ec4f6', '::1', 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko', '1452596384', 'a:6:{s:9:\"user_data\";s:0:\"\";s:3:\"mid\";s:1:\"1\";s:5:\"uname\";s:8:\"bocadmin\";s:8:\"nickname\";s:12:\"超级用户\";s:8:\"login_ip\";s:7:\"0.0.0.0\";s:3:\"gid\";s:1:\"1\";}');
+INSERT INTO `pcms_sessions_adminer` VALUES ('11b490af5f5628584936ea2509208921', '::1', 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko', '1452596686', 'a:6:{s:9:\"user_data\";s:0:\"\";s:3:\"mid\";s:1:\"1\";s:5:\"uname\";s:8:\"bocadmin\";s:8:\"nickname\";s:12:\"超级用户\";s:8:\"login_ip\";s:7:\"0.0.0.0\";s:3:\"gid\";s:1:\"1\";}');
+INSERT INTO `pcms_sessions_adminer` VALUES ('f8fd7fe79926327d0eab52b92acefd6d', '::1', 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko', '1452596819', 'a:6:{s:9:\"user_data\";s:0:\"\";s:3:\"mid\";s:1:\"1\";s:5:\"uname\";s:5:\"admin\";s:8:\"nickname\";s:12:\"超级用户\";s:8:\"login_ip\";s:7:\"0.0.0.0\";s:3:\"gid\";s:1:\"1\";}');
 
 -- ----------------------------
 -- Table structure for pcms_sessions_site
