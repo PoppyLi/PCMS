@@ -4,8 +4,8 @@ define('DB_TYPE'   , 'mysql');
 define('DB_HOST'   , 'localhost');
 define('DB_USER'   , 'root');
 define('DB_PASS'   , '');
-define('DB_NAME'   , 'jht_zdkf');
-define('DB_PREFIX' , 'boc_');
+define('DB_NAME'   , 'pcms');
+define('DB_PREFIX' , 'pcms_');
 
 # 全局URL路径
 define('GLOBAL_URL'  , 'http://'.$_SERVER['HTTP_HOST'].'/'); 
