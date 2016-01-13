@@ -4,9 +4,9 @@
 <meta name="renderer" content="webkit">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta charset="utf-8" />
-<title>装饰公司</title>
-<meta name="description" content="装饰公司" />
-<meta name="keywords" content="装饰公司" />
+<title><?php echo $header['title']?></title>
+<meta name="description" content="<?php echo $header['intro']?>" />
+<meta name="keywords" content="<?php echo $header['tags']?>" />
 <link rel="stylesheet" type="text/css" href="/static/web/css/style.css" />
 <link rel="stylesheet" type="text/css" href="/static/web/css/style.css" />
 <script type="text/javascript" src="/static/js/jquery.min.js"></script>
@@ -14,7 +14,7 @@
 <script type="text/javascript" src="/static/web/js/fun.inc.js"></script>
 <script type="text/javascript" src="/static/web/js/metinfo.js"></script>
 <!--[if IE]>
-<script type="text/javascript" src="/public/home/js/html5.js"></script>
+<script type="text/javascript" src="/static/web/js/html5.js"></script>
 <![endif]-->
 </head>
 
@@ -28,7 +28,7 @@
     </div>
 
     <div class="header-con">
-        <a href="" id="web_logo" title="装饰公司"><span>ZSGS</span>装饰公司<i>zsgs.com</i></a>
+        <a href="" id="web_logo" title="XX公司"><?php echo $header['title']?><i>xxgs.com</i></a>
         <div class="nav-box">
                         <ul>
                 <li class="navdown">
@@ -108,10 +108,10 @@
 
 <div class="banner-box">
     <div class="banmove">
-                <a href="javascript:void(0)" style="background:url(/uploads/adv/20151015112710_2233.jpg) no-repeat center center;"></a>
-                <a href="javascript:void(0)" style="background:url(/uploads/adv/20151015113547_6007.jpg) no-repeat center center;"></a>
-                <a href="javascript:void(0)" style="background:url(/uploads/adv/20151015113635_5826.jpg) no-repeat center center;"></a>
-            </div>
+        <?php foreach($banner as $k => $v) :?>
+            <a href="javascript:void(0)" style="background:url('<?php echo UPLOAD_URL.tag_photo($v['photo']); ?>') no-repeat center center;"></a>
+        <?php endforeach?>
+    </div>
     <div class="banmun"></div>
     <div class="banerbot"></div>
 </div>

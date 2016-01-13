@@ -2,9 +2,16 @@
 
 class Company extends MY_Controller {
 
+	function __construct(){
+        parent::__construct();
+        
+    }
+
 	 public function index()
 	 {
 	 	$vdata = array();
+	 	$vdata = $this->get_site();
+	 	
 	 	$this->load->view('Company',$vdata);
 	 }
 

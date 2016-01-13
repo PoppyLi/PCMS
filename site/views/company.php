@@ -2,38 +2,7 @@
 
 <div class="sidebar-box">
   <div class="sidebar-con">
-        <div class="sidebar-con-left">
-            <div class="sidebar-con-tit">
-        <div class="sidebar-con-box"><font class="this">公司简介</font><span class="this">About</span></div>
-      </div>
-            <div class="sidebar-con-left-nav">
-        <ul>
-                    <li>
-            <a href="/gongsijianjie/index/2.html">关于我们</a>
-          </li>
-                    <li>
-            <a href="/gongsijianjie/index/3.html">经验理念</a>
-          </li>
-                    <li>
-            <a href="/gongsijianjie/index/4.html">企业锋芒</a>
-          </li>
-                    <li>
-            <a href="/gongsijianjie/index/5.html">公司文化</a>
-          </li>
-                  </ul>
-        <div class="clear"></div>  
-      </div>
-      
-      <div class="sidebar-con-tit">
-        <div class="sidebar-con-box"><font class="this">联系方式</font><span class="this">CONTACT&nbsp;</span></div>
-      </div>
-      <div class="sidebar-con-left-con">
-        <div>地址：时代广场1号楼A座1008室</div>
-        <div>电话：0871-55667788</div>
-        <div>联系人：冯先生 13833338888</div>
-        <div>邮箱：mail@163.com</div>
-        </div>
-    </div>
+    <?php $this->load->view('inc/sidebar-left')?>
     
     <div class="sidebar-con-right">    
       <div class="sidebar-con-tit">
