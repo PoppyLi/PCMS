@@ -1,72 +1,34 @@
-<?php 
-$CI->load->model('Article_model','marticle');
-$CI->load->model('Gallery_model','mgallery');
-$CI->load->model('Links_model','mlinks');
-$CI->load->model('Page_model','mpage');
 
-$platf = list_coltypes(11);
-$idea = list_coltypes(3);
+<div class="main-greet"></div>
 
-
-$face = $CI->marticle->get_one(array('cid'=>14,'audit'=>1));
-
-$face2 = $CI->marticle->get_one(array('cid'=>15,'audit'=>1));
-
-$where = array('cid'=>16,'audit'=>1);
-$CI->db->order_by('id','asc');
-$link = $CI->mlinks->get_all($where);
-
-$comit = $CI->mpage->get_one(array('cid'=>17));
-
-?>
-
-<div class="footer">
-		<div class="footert">
-			<div class="footertm clear w1025">
-				<b>合作伙伴：</b>
-				<p>
- 					<?php for ($i=0;$i<sizeof($link);$i++) { ?>
-						<span <?php if ($i==(sizeof($link)-1)) { echo "class='pslast'";} ?>>
-							<a href="<?php echo $link[$i]['link']; ?>" target=_blank>
-								<?php echo $link[$i]['title']; ?>
-							</a>
-						</span>
-					<?php } ?>
-				</p> 
-			</div>
-		</div>
-		<div class="footerm">
-			<div class="footermm w1025">
-				<div class="fmm-up">
-					<ul>
-						<li class="fupfli"><a href="<?php echo site_url('welcome'); ?>">首页</a></li>
-						<li ><a href="<?php echo site_url('about?ctype='.'1'); ?>">关于我们</a></li>
-						<li><a href="<?php echo site_url('invest/idea?ctype='.'5'); ?>">投资管理</a></li>
-						<li><a href="<?php echo site_url('weitou/weitou'); ?>">科发微投</a></li>
-						<li><a href="<?php echo site_url('project/project'); ?> ">项目投递</a></li>
-						<li><a href="<?php echo site_url('case/case?ctype='.'8'); ?>">投资案例</a></li>
-						<li><a href="<?php echo site_url('run/run'); ?>">管理团队</a></li>
-						<li><a href="<?php echo site_url('news/news?ctype='.'13'); ?>">资讯中心</a></li>
-						<li><a href="<?php echo site_url('job/job'); ?> ">人才招聘</a></li>
-						<li class="fuplli"><a href="<?php echo site_url('contact/contact'); ?>">联系我们</a></li>
-					</ul>
-				</div>
-				<div class="ffm-down">
-					<div class="cominfro">
-						<?php echo $comit['content']; ?>
-					</div>
-					<div class="scan">
-						<div class="wrapimg">
-							<img src="<?php echo static_file('web/img/'); ?> " alt="">
-						</div>
-						<p>扫描二维码关注</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="footerf">
-			<div class="footerfm w1025">
-				<p class="ffmp1">copyright ©2015 all right reserved</p>
-			</div>
-		</div>
+<div class="footer-box">
+        <div class="foot-nav">
+            <a href="/gongsijianjie/index/1.html">公司简介</a>
+            <span>|</span>
+        <a href="/zhuangxuzhishi/index/6.html">装修知识</a>
+            <span>|</span>
+        <a href="/anlizhanshi/index/9.html">案例展示</a>
+            <span>|</span>
+        <a href="/gongsifuwu/index/13.html">公司服务</a>
+            <span>|</span>
+        <a href="/huanbaobaozhang/index/16.html">环保保障</a>
+            <span>|</span>
+        <a href="/shejililian/index/20.html">设计理念</a>
+            <span>|</span>
+        <a href="/zhaoxiannashi/index/22.html">招贤纳士</a>
+            <span>|</span>
+        <a href="/lianxiwomen/index/23.html">联系我们</a>
+        </div>
+        
+    <p>装饰公司 版权所有 2012-2015 ICP备88888-x</p>
+    <p>地址：时代广场1号楼A座1008室&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话：0871-55667788</p>
+    <!--版权信息-->
+    <div class="powered_by_metinfo">
+    Powered&nbsp;by&nbsp;<a href="http://www.website.com">装饰公司</a>
+    &copy;2012-2015&nbsp;
+    <a href="http://www.website.com">http://www.website.com</a>
+    </div>
+    <!--版权信息结束-->
 </div>
+</body>
+</html>

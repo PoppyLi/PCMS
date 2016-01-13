@@ -89,13 +89,6 @@ class Columns extends CRUD_Controller
 		$vdata['title'] = lang('cols_title');
 		$method = $this->router->method;
 		if ($method == "create" OR $method == "edit") {
-			// if ($method == "edit") {
-			// 	$vdata['parent_path'] = $this->model->get_path_one($vdata['it']['id']) ;
-			// }
-			// if ($method == "create" and $this->input->get('c')) {
-			// 	$vdata['parent_path'] = $this->model->get_path_one($this->input->get('c'));
-			// }
-			// $vdata['cols'] = $this->model->get_cols(0);
 			$top = array(array('id'=>0,'depth'=>0,'fid'=>0,'title'=>"顶级目录"));
 			$vdata['cols_select'] = array_merge($top,$this->model->get_cols_select(0));
 		}
@@ -427,7 +420,7 @@ function tree_cols($list=false, $padding = array()){
 			// $tree.= '<i class="fa fa-ellipsis-h "></i>';
 		}
 
-		$tree.= ' <a href="'.GLOBAL_URL.'index.php/'.$v['path'].'" target="_blank"> <span> '.$v['ctitle'] .' </span></a> - <span class="label label-success">'.$v['cid'].'</span><span class="label" title="'.$v['path'].'" >'.$v['cidentify'].'</span>';
+		$tree.= ' <a href="'.GLOBAL_URL.'index.php'.$v['path'].'" target="_blank"> <span> '.$v['ctitle'] .' </span></a> - <span class="label label-success">'.$v['cid'].'</span><span class="label" title="'.$v['path'].'" >'.$v['cidentify'].'</span>';
 		if ( ENVIRONMENT == "development") {
 			$tree.= '<span class="label label-info">'.$v['temp_index'].'</span><span class="label">'.$v['temp_show'].'</span>' ;;
 		}

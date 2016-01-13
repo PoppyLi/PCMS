@@ -34,7 +34,7 @@ class Columns_Model extends MY_Model{
 
 	// 获得模型
 	public function get_modules(){
-		$query = $this->db->select('id,title,controller')->from('modules')->order_by('sort_id','desc')->get();
+		$query = $this->db->select('id,title,controller')->from('modules')->order_by('sort_id','asc')->get();
 		return $query->result_array();
 	}
 

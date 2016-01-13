@@ -1,143 +1,117 @@
-<?php 
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8" />
+<title>装饰公司</title>
+<meta name="description" content="装饰公司" />
+<meta name="keywords" content="装饰公司" />
+<link rel="stylesheet" type="text/css" href="/static/web/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/static/web/css/style.css" />
+<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+<script type="text/javascript" src="/static/web/js/metinfo_ui.js"></script>
+<script type="text/javascript" src="/static/web/js/fun.inc.js"></script>
+<script type="text/javascript" src="/static/web/js/metinfo.js"></script>
+<!--[if IE]>
+<script type="text/javascript" src="/public/home/js/html5.js"></script>
+<![endif]-->
+</head>
 
+<body>
+<div class="header-box">
+    <div class="header-top">
+        <div class="top-nav">
+            <span class="i"></span>
+            <a href="javascript:void(0)" onclick='SetHome(this,window.location,"浏览器不支持此功能，请手动设置！");'>设为首页</a> | <a href="javascript:void(0)" onclick='addFavorite("浏览器不支持此功能，请手动设置！");'>收藏本站</a>
+        </div>
+    </div>
 
-$about = list_coltypes(2);
-
-$invest = list_coltypes(3);
-
-$case = list_coltypes(6);
-
-$news_all = list_coltypes(8);
-// var_dump($life_ctypes);
-$aid = $CI->session->userdata('aid');
-$name = $CI->session->userdata('name');
-// echo $aid;
-// echo $name;
-
-
-?>
-
-<div class="header">
-	<div class="header-main">
-		<div class="headert">
-			<div class="headertm clear w1025">
-				<!-- <p class="htp1">·   热烈祝贺本公司新版电脑上线运营！！！</p> -->
-				<p class="htp1"><a href="<?php echo site_url('login'); ?> "><span class="log">登陆</span></a></p>
-				<p class="htp2">热线：086-571-8825 0328</p>
-				<?php if($aid == ''){ ?>
-				<!-- <p class="htp4"><a href="<?//php echo site_url('login'); ?> "><span class="log">登陆</span></a></p> -->
-
-				<? }else{ ?>
-<!-- 					<p class="htp1">·   欢迎登陆，亲爱的投资人<?php echo $name;?></p>
-					<p class="htp4"><a href="<?php echo site_url('out'); ?> " class="">退出</a></p> -->
-	            <?php }?>
-
-
-				
-				
-			</div>
-		</div>
-		<div class="headerf clear w1025">
-			<div class="logo"><a href="<?php echo site_url(); ?>"></a></div>
-			<div class="navagation">
-				<ul class="clear">
-					<li>
-						<a href="<?php echo site_url('welcome'); ?> ">科发首页</a>
-
-					</li>
-					<li><a href="<?php echo site_url('about?ctype='.'1'); ?> ">关于我们</a>
-						<div class="subnav">
-							<?php foreach ($about as $k => $v) { ?>
-								<a href="<?php echo site_url('about?ctype='.$v['id']); ?>"><?php echo $v['title']; ?></a>
-							<?php } ?>
-						</div>
-					</li>
-					<li><a href="<?php echo site_url('invest/idea?ctype='.'5'); ?>">投资管理</a>
-						<div class="subnav">
-							<?php foreach ($invest as $k => $v) { ?>
-								<a href="<?php echo site_url('invest/idea?ctype='.$v['id']); ?>"><?php echo $v['title']; ?></a>
-							<?php } ?>
-						</div>
-					</li>
-					<!-- <li><a href="<?//php echo site_url('weitou/weitou'); ?> ">科发微投</a></li> -->
-					<li><a href="<?php echo site_url('project/project'); ?> ">项目投递</a></li>
-
-					<li><a href="<?php echo site_url('case/case?ctype='.'8'); ?> ">投资案例</a>
-						<div class="subnav">
-							<?php foreach ($case as $k => $v) { ?>
-								<a href="<?php echo site_url('case/case?ctype='.$v['id']); ?>"><?php echo $v['title']; ?></a>
-							<?php } ?>
-						</div>
-					</li>
-					<li><a href="<?php echo site_url('run/run'); ?> ">管理团队</a></li>
-
-					<li><a href="<?php echo site_url('user?id=82'); ?> ">我的投资</a>
-<!-- 						<div class="subnav">
-							<a href="<?php echo site_url('user'); ?>">个人中心</a>
-							<a href="<?php echo site_url('user/uslf2'); ?>">月息通</a>
-							<a href="<?php echo site_url('user/uslf3'); ?>">月息通</a>
-							<a href="<?php echo site_url('user/uslf4'); ?>">月息通</a>
-							<a href="<?php echo site_url('user/uslf5'); ?>">月息通</a>
-							<a href="<?php echo site_url('user/uslf6'); ?>">月息通</a>
-							
-						</div> -->
-
-					</li>
-
-					<li><a href="<?php echo site_url('news/news?ctype='.'13'); ?> ">资讯中心</a>
-						<div class="subnav">
-							<?php foreach ($news_all as $k => $v) { ?>
-								<a href="<?php echo site_url('news/news?ctype='.$v['id']); ?>"><?php echo $v['title']; ?></a>
-							<?php } ?>
-						</div>
-					</li>
-					<li><a href="<?php echo site_url('job/job'); ?> ">人才招聘</a>
-						<div class="subnav">
-							<a href="<?php echo site_url('job/job'); ?>">人才招聘</a>
-							<a href="<?php echo site_url('job/linian'); ?>">人才理念</a>
-							
-						</div>
-
-					</li>
-					<li><a href="<?php echo site_url('contact/contact'); ?> ">联系我们</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+    <div class="header-con">
+        <a href="" id="web_logo" title="装饰公司"><span>ZSGS</span>装饰公司<i>zsgs.com</i></a>
+        <div class="nav-box">
+                        <ul>
+                <li class="navdown">
+                <a href="">首 页</a>
+                <ul>
+                <li><a href="">首 页</a></li>
+                </ul>
+                </li>
+				                <li>
+                <a href="<?php echo site_url('company')?>">公司简介</a>
+                <ul>
+                <li><a href="<?php echo site_url('company')?>">公司简介</a></li>
+                                <li><a href="/gongsijianjie/index/2.html">关于我们</a></li>
+                                <li><a href="/gongsijianjie/index/3.html">经验理念</a></li>
+                                <li><a href="/gongsijianjie/index/4.html">企业锋芒</a></li>
+                                <li><a href="/gongsijianjie/index/5.html">公司文化</a></li>
+                                </ul>
+                </li>
+                                <li>
+                <a href="<?php echo site_url('decoration')?>">装修知识</a>
+                <ul>
+                <li><a href="<?php echo site_url('decoration')?>">装修知识</a></li>
+                                <li><a href="/zhuangxuzhishi/index/7.html">设计指南</a></li>
+                                <li><a href="/zhuangxuzhishi/index/8.html">风水指南</a></li>
+                                </ul>
+                </li>
+                                <li>
+                <a href="<?php echo site_url('cases')?>">案例展示</a>
+                <ul>
+                <li><a href="<?php echo site_url('cases')?>">案例展示</a></li>
+                                <li><a href="/anlizhanshi/index/10.html">家装案例</a></li>
+                                <li><a href="/anlizhanshi/index/11.html">办公室案例</a></li>
+                                <li><a href="/anlizhanshi/index/12.html">专卖店案例</a></li>
+                                </ul>
+                </li>
+                                <li>
+                <a href="<?php echo site_url('service')?>">公司服务</a>
+                <ul>
+                <li><a href="<?php echo site_url('service')?>">公司服务</a></li>
+                                <li><a href="/gongsifuwu/index/32.html">服务项目</a></li>
+                                <li><a href="/gongsifuwu/index/15.html">服务流程</a></li>
+                                </ul>
+                </li>
+                                <li>
+                <a href="<?php echo site_url('guarantee')?>">环保保障</a>
+                <ul>
+                <li><a href="<?php echo site_url('guarantee')?>">环保保障</a></li>
+                                <li><a href="/huanbaobaozhang/index/17.html">环境质量保障</a></li>
+                                <li><a href="/huanbaobaozhang/index/18.html">施工保障</a></li>
+                                <li><a href="/huanbaobaozhang/index/19.html">施工标准</a></li>
+                                </ul>
+                </li>
+                                <li>
+                <a href="<?php echo site_url('design')?>">设计理念</a>
+                <ul>
+                <li><a href="<?php echo site_url('design')?>">设计理念</a></li>
+                                <li><a href="/shejililian/index/21.html">五大风格</a></li>
+                                </ul>
+                </li>
+                                <li>
+                <a href="<?php echo site_url('recruit')?>">招贤纳士</a>
+                <ul>
+                <li><a href="<?php echo site_url('recruit')?>">招贤纳士</a></li>
+                                </ul>
+                </li>
+                                <li>
+                <a href="<?php echo site_url('contact')?>">联系我们</a>
+                <ul>
+                <li><a href="<?php echo site_url('contact')?>">联系我们</a></li>
+                                <li><a href="/lianxiwomen/index/24.html">在线反馈</a></li>
+                                </ul>
+                </li>
+                            </ul>
+                    </div>
+    </div>
 </div>
-	
-<script type="text/javascript">
-    // $(".log").click(function(){
-    //     $(".clearbox").fadeIn(600,function(){
-    //         $(".login").fadeIn(600)
-    //     })
-    // })
-    // $(".getlog").click(function(){
-    // 	window.location.href="<?php echo site_url('user'); ?>";
-    // })
-    // $(".close").eq(0).click(function(){
-    //     $(".login").fadeOut(600,function(){
-    //         $(".clearbox").fadeOut(600)
-    //     });
-    // });
-    // $(".forget").click(function(){
-    // 	$(".login").fadeOut(600,function(){
-    // 		$(".recode").fadeIn(600);
-    // 	})
-    // })
-    // $(".close").eq(1).click(function(){
-    //     $(".recode").fadeOut(600,function(){
-    //     $(".clearbox").fadeOut(600);
-    //     });
-    // });
-    // $(".reg").click(function(){
-    //     $(".clearbox").fadeIn(600,function(){
-    //     $(".register").fadeIn(600)
-    //     })
-    // })
-    // $(".close").eq(2).click(function(){
-    //     $(".register").fadeOut(600,function(){
-    //     $(".clearbox").fadeOut(600);
-    //     });
-    // });
-</script>
+
+<div class="banner-box">
+    <div class="banmove">
+                <a href="javascript:void(0)" style="background:url(/uploads/adv/20151015112710_2233.jpg) no-repeat center center;"></a>
+                <a href="javascript:void(0)" style="background:url(/uploads/adv/20151015113547_6007.jpg) no-repeat center center;"></a>
+                <a href="javascript:void(0)" style="background:url(/uploads/adv/20151015113635_5826.jpg) no-repeat center center;"></a>
+            </div>
+    <div class="banmun"></div>
+    <div class="banerbot"></div>
+</div>

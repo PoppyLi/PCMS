@@ -3,7 +3,7 @@
 $config['base_url'] = GLOBAL_URL;
 
 # 使用PATHINFO 去除 index.php
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 | 'AUTO'			Default - auto detects
@@ -15,7 +15,7 @@ $config['index_page'] = 'index.php';
 $config['uri_protocol']	= 'AUTO';
 
 /* 伪静态后缀 */
-$config['url_suffix'] = '';
+$config['url_suffix'] = '.html';
 
 /*默认语言*/
 $config['language']	= 'zh_CN';

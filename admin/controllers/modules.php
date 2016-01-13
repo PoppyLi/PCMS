@@ -24,7 +24,7 @@ class Modules extends CRUD_Controller {
 	}
 
 	protected function _index_orders(){
-		return array('sort_id'=>'desc');
+		return array('sort_id'=>'asc');
 	}
 
 	// 检测问模型文件存在与否
