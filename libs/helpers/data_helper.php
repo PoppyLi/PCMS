@@ -170,7 +170,7 @@ if (!function_exists('get_list_cid')) {
 		$where = $where ? $where : array('cid'=>$cid,'audit'=>1);
 		$CI =& get_instance();
 		if (!isset($CI->mcol)) {
-			$this->load->model('Columns_Model','mcol');
+			$CI->load->model('Columns_Model','mcol');
 		}
 		$info = $CI->mcol->get_one($cid);
 		$re_list = $CI->mcol->get_list($limit,0,false,$where,$fields,$info['controller']);
@@ -178,6 +178,26 @@ if (!function_exists('get_list_cid')) {
 			$re_list[$k]['path'] = $info['path'];
 		}
 		return $re_list;
+	}
+}
+
+if (!function_exists('get_columns_parent')) {
+
+	/**
+	 * 获取栏目下的列表（列表类型栏目）
+	 * @param  integer $cid    栏目ID
+	 * @return array[]         列表数组
+	 */
+	function get_columns_parent($cid){
+		if (!$cid) {
+			return false;
+		}
+		$CI =& get_instance();
+		if (!isset($CI->mcol)) {
+			$CI->load->model('Columns_Model','mcol');
+		}
+		$list = $CI->mcol->get_all(array('parent_id' => $cid),'id,sort_id,title,identify,mid',array('sort_id' => 'asc'));
+		return $list;
 	}
 }
 

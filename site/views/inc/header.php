@@ -30,24 +30,20 @@
     <div class="header-con">
         <a href="" id="web_logo" title="XX公司"><?php echo $header['title']?><i>xxgs.com</i></a>
         <div class="nav-box">
-                        <ul>
-                <li class="navdown">
-                <a href="">首 页</a>
-                <ul>
-                <li><a href="">首 页</a></li>
-                </ul>
+            <ul>
+                <li class="navdown"><a href="">首 页</a>
+                    <ul>
+                        <li><a href="">首 页</a></li>
+                    </ul>
                 </li>
-				                <li>
-                <a href="<?php echo site_url('company')?>">公司简介</a>
-                <ul>
-                <li><a href="<?php echo site_url('company')?>">公司简介</a></li>
-                                <li><a href="/gongsijianjie/index/2.html">关于我们</a></li>
-                                <li><a href="/gongsijianjie/index/3.html">经验理念</a></li>
-                                <li><a href="/gongsijianjie/index/4.html">企业锋芒</a></li>
-                                <li><a href="/gongsijianjie/index/5.html">公司文化</a></li>
-                                </ul>
+				<li><a href="<?php echo site_url('company')?>">公司简介</a>
+                    <ul>
+                        <?php foreach ($parent as $key => $value) {?>
+                            <li><a href="<?php echo site_url('company/index/'.$parent[$key]['id'])?>"><?php echo $parent[$key]['title'];?></a></li>
+                        <?php }?>
+                    </ul>
                 </li>
-                                <li>
+                <li>
                 <a href="<?php echo site_url('decoration')?>">装修知识</a>
                 <ul>
                 <li><a href="<?php echo site_url('decoration')?>">装修知识</a></li>

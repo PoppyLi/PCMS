@@ -1,6 +1,3 @@
-
-<div class="main-greet"></div>
-
 <div class="footer-box">
         <div class="foot-nav">
             <a href="/gongsijianjie/index/1.html">公司简介</a>
