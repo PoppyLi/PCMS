@@ -2,13 +2,13 @@
 
 class Home extends MY_Controller{
 	function __construct(){
-        parent::__construct();
-        
+        parent::__construct();        
+
     }
 
 	 public function index(){
 	 	$vdata = array();
-	 	$vdata = $this->get_site();
+	 	$vdata = $this->Comdata;
 
 	 	$this->load->view('home',$vdata);
 	 }

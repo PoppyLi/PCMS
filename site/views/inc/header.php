@@ -33,72 +33,20 @@
             <ul>
                 <li class="navdown"><a href="">首 页</a>
                     <ul>
-                        <li><a href="">首 页</a></li>
+                        <li><a href="<?php echo site_url()?>">首 页</a></li>
                     </ul>
                 </li>
-				<li><a href="<?php echo site_url('company')?>">公司简介</a>
+
+                <?php foreach ($list as $key => $value) {?>
+                    <li><a href=""><?php echo $list[$key]['title']?></a>
                     <ul>
-                        <?php foreach ($parent as $key => $value) {?>
-                            <li><a href="<?php echo site_url('company/index/'.$parent[$key]['id'])?>"><?php echo $parent[$key]['title'];?></a></li>
+                        <?php foreach ($value['child'] as $k => $v) {?>
+                            <li><a href="<?php echo site_url($list[$key]['identify'].'/index/'.$value['child'][$k]['id'])?>"><?php echo $value['child'][$k]['title']?></a></li>
                         <?php }?>
                     </ul>
-                </li>
-                <li>
-                <a href="<?php echo site_url('decoration')?>">装修知识</a>
-                <ul>
-                <li><a href="<?php echo site_url('decoration')?>">装修知识</a></li>
-                                <li><a href="/zhuangxuzhishi/index/7.html">设计指南</a></li>
-                                <li><a href="/zhuangxuzhishi/index/8.html">风水指南</a></li>
-                                </ul>
-                </li>
-                                <li>
-                <a href="<?php echo site_url('cases')?>">案例展示</a>
-                <ul>
-                <li><a href="<?php echo site_url('cases')?>">案例展示</a></li>
-                                <li><a href="/anlizhanshi/index/10.html">家装案例</a></li>
-                                <li><a href="/anlizhanshi/index/11.html">办公室案例</a></li>
-                                <li><a href="/anlizhanshi/index/12.html">专卖店案例</a></li>
-                                </ul>
-                </li>
-                                <li>
-                <a href="<?php echo site_url('service')?>">公司服务</a>
-                <ul>
-                <li><a href="<?php echo site_url('service')?>">公司服务</a></li>
-                                <li><a href="/gongsifuwu/index/32.html">服务项目</a></li>
-                                <li><a href="/gongsifuwu/index/15.html">服务流程</a></li>
-                                </ul>
-                </li>
-                                <li>
-                <a href="<?php echo site_url('guarantee')?>">环保保障</a>
-                <ul>
-                <li><a href="<?php echo site_url('guarantee')?>">环保保障</a></li>
-                                <li><a href="/huanbaobaozhang/index/17.html">环境质量保障</a></li>
-                                <li><a href="/huanbaobaozhang/index/18.html">施工保障</a></li>
-                                <li><a href="/huanbaobaozhang/index/19.html">施工标准</a></li>
-                                </ul>
-                </li>
-                                <li>
-                <a href="<?php echo site_url('design')?>">设计理念</a>
-                <ul>
-                <li><a href="<?php echo site_url('design')?>">设计理念</a></li>
-                                <li><a href="/shejililian/index/21.html">五大风格</a></li>
-                                </ul>
-                </li>
-                                <li>
-                <a href="<?php echo site_url('recruit')?>">招贤纳士</a>
-                <ul>
-                <li><a href="<?php echo site_url('recruit')?>">招贤纳士</a></li>
-                                </ul>
-                </li>
-                                <li>
-                <a href="<?php echo site_url('contact')?>">联系我们</a>
-                <ul>
-                <li><a href="<?php echo site_url('contact')?>">联系我们</a></li>
-                                <li><a href="/lianxiwomen/index/24.html">在线反馈</a></li>
-                                </ul>
-                </li>
-                            </ul>
-                    </div>
+                <?php } ?>
+            </ul>
+        </div>
     </div>
 </div>
 

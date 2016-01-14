@@ -15,7 +15,7 @@ $config['index_page'] = '';
 $config['uri_protocol']	= 'AUTO';
 
 /* 伪静态后缀 */
-$config['url_suffix'] = '.html';
+$config['url_suffix'] = '';
 
 /*默认语言*/
 $config['language']	= 'zh_CN';

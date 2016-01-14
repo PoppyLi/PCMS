@@ -56,7 +56,7 @@ class MY_Model extends CI_Model{
 		if (!$table) {
 			$table = $this->table;
 		}
-
+		
 		$this->db
 			->select($fields)
 			->from($table)

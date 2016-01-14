@@ -8,7 +8,7 @@
                     if($key == 0) continue;
                 ?>                
                     <li>
-                        <a href="<?php echo site_url('company/index/'.$parent[$key]['id'])?>"><?php echo $parent[$key]['title'];?></a>
+                        <a href="<?php echo site_url($parent[0]['identify'].'/index/'.$parent[$key]['id'])?>"><?php echo $parent[$key]['title'];?></a>
                     </li>
                 <?php }?>
             </ul>

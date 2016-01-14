@@ -184,7 +184,7 @@ if (!function_exists('get_list_cid')) {
 if (!function_exists('get_columns_parent')) {
 
 	/**
-	 * 获取栏目下的列表（列表类型栏目）
+	 * 获取栏目下的子列表（列表类型栏目）
 	 * @param  integer $cid    栏目ID
 	 * @return array[]         列表数组
 	 */
