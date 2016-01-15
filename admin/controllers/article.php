@@ -47,7 +47,7 @@ class Article extends Modules_Controller
 	{
 		if (!array_key_exists('title', $vdata) or $vdata['title'] == $this->class) {
 			$title = $this->mcol->get_one($this->cid,"title");
-			$vdata['title'] = $title['title'].'aaaaaaaaaaa';
+			$vdata['title'] = $title['title'];
 		}
 		// 对图片文件进行处理
 		if ($this->method == 'edit') {

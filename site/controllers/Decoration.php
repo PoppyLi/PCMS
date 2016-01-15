@@ -12,9 +12,7 @@ class Decoration extends MY_Controller {
 	 	$vdata = array();
 	 	$vdata = $this->Comdata;
 	 	
-	 	$vdata['content'] = $this->art->get_list(array('cid' => $cid));
-
-	 	var_dump($vdata);
+	 	$vdata['content'] = $this->art->get_all(array('cid' => $cid,'audit' => 1),'id,cid,title,timeline');
 	 	$this->load->view('Decoration',$vdata);
 	 }
 
