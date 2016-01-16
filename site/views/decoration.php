@@ -11,7 +11,7 @@
       </div>
 
       <div class="sidebar-con-right-con">        
-          <?php foreach ($content as $k => $v) { ?>
+          <?php foreach ($ari_list as $k => $v) { ?>
             <div class="newsinfo">
                 <a href="<?php echo site_url('decoration/article/'.$v['id'])?>"><img src="<?php echo UPLOAD_URL.tag_photo($v['photo']); ?> " alt="" width="134" height="94"></a>
                 <div class="nwstext">
@@ -21,6 +21,9 @@
                 </div>
             </div>
             <?php } ?>
+      </div>
+      <div class="text-center">
+        <?php echo $pages; ?>
       </div>
     </div>
     <div class="clear"></div>

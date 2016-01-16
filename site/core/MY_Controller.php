@@ -44,5 +44,21 @@ class MY_Controller extends CI_Controller{
 
 		return $arr;
 	}
-	
+
+	/**
+	 * @brief 分页
+	 * @param $url string 输出地址
+	 * @param $per_page int 每页个数
+	 * @param $where array/string 查询条件
+	 * @param $uri int page 所在参数位置
+	 * @return 
+	 */
+	protected function _pages($url,$per_page=-1,$where=false,$all_num=0,$uri=3){
+		if (!$per_page < 0) {
+			$per_page = $this->page_limit;
+		}
+		$this->load->library('pagination');
+		$this->pagination->initialize(page_config($per_page,$all_num,$url,$uri));
+		return $this->pagination->create_links();
+	}	
 }

@@ -26,6 +26,9 @@
     <a href="http://www.website.com">http://www.website.com</a>
     </div>
     <!--版权信息结束-->
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/static/js/bootstrap.min.js"></script>
 </div>
 </body>
 </html>

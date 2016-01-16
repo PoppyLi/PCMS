@@ -259,3 +259,193 @@ ERROR - 2016-01-16 16:13:09 --> Could not find the language line "acount"
 ERROR - 2016-01-16 16:13:09 --> Could not find the language line "acount"
 ERROR - 2016-01-16 16:13:11 --> Could not find the language line "acount"
 ERROR - 2016-01-16 16:13:11 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:02:33 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:02:33 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:02:37 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:02:37 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:02:39 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:02:39 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:02:39 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:02:39 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:03:13 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:03:13 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:03:13 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:03:13 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:03:14 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:03:14 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:03:14 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:03:15 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:03:15 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:03:15 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:03:15 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:03:16 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:03:17 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:03:17 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:03:20 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:03:20 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:03:20 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:03:20 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:03:47 --> Severity: Notice  --> Undefined index: upload_dir C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 198
+ERROR - 2016-01-16 18:03:48 --> Severity: Notice  --> Undefined index: upload_url C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 225
+ERROR - 2016-01-16 18:03:48 --> Severity: Warning  --> preg_match(): Delimiter must not be alphanumeric or backslash C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 1067
+ERROR - 2016-01-16 18:03:48 --> Severity: Notice  --> Undefined property: Upload::$UploadHandler C:\wamp\www\PCMS\admin\controllers\upload.php 64
+ERROR - 2016-01-16 18:04:13 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:04:13 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:04:14 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:04:14 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:04:17 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:04:17 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:04:17 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:04:17 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:04:37 --> Severity: Notice  --> Undefined index: upload_dir C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 198
+ERROR - 2016-01-16 18:04:37 --> Severity: Notice  --> Undefined index: upload_url C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 225
+ERROR - 2016-01-16 18:04:37 --> Severity: Warning  --> preg_match(): Delimiter must not be alphanumeric or backslash C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 1067
+ERROR - 2016-01-16 18:04:37 --> Severity: Notice  --> Undefined property: Upload::$UploadHandler C:\wamp\www\PCMS\admin\controllers\upload.php 64
+ERROR - 2016-01-16 18:04:56 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:04:56 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:04:58 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:04:58 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:05:42 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:05:42 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:06:00 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:06:00 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:06:00 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:06:00 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:06:25 --> Severity: Notice  --> Undefined index: upload_dir C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 198
+ERROR - 2016-01-16 18:06:25 --> Severity: Notice  --> Undefined index: upload_url C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 225
+ERROR - 2016-01-16 18:06:25 --> Severity: Warning  --> preg_match(): Delimiter must not be alphanumeric or backslash C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 1067
+ERROR - 2016-01-16 18:06:25 --> Severity: Notice  --> Undefined property: Upload::$UploadHandler C:\wamp\www\PCMS\admin\controllers\upload.php 64
+ERROR - 2016-01-16 18:06:40 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:06:40 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:06:42 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:06:42 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:06:42 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:06:42 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:07:09 --> Severity: Notice  --> Undefined index: upload_dir C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 198
+ERROR - 2016-01-16 18:07:09 --> Severity: Notice  --> Undefined index: upload_dir C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 198
+ERROR - 2016-01-16 18:07:09 --> Severity: Notice  --> Undefined index: upload_url C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 225
+ERROR - 2016-01-16 18:07:09 --> Severity: Warning  --> preg_match(): Delimiter must not be alphanumeric or backslash C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 1067
+ERROR - 2016-01-16 18:07:09 --> Severity: Notice  --> Undefined property: Upload::$UploadHandler C:\wamp\www\PCMS\admin\controllers\upload.php 64
+ERROR - 2016-01-16 18:07:09 --> Severity: Notice  --> Undefined index: upload_url C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 225
+ERROR - 2016-01-16 18:07:10 --> Severity: Warning  --> preg_match(): Delimiter must not be alphanumeric or backslash C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 1067
+ERROR - 2016-01-16 18:07:10 --> Severity: Notice  --> Undefined property: Upload::$UploadHandler C:\wamp\www\PCMS\admin\controllers\upload.php 64
+ERROR - 2016-01-16 18:07:19 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:07:19 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:07:20 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:07:20 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:07:21 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:07:21 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:07:22 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:07:22 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:07:23 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:07:23 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:07:39 --> Severity: Notice  --> Undefined index: upload_dir C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 198
+ERROR - 2016-01-16 18:07:39 --> Severity: Notice  --> Undefined index: upload_url C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 225
+ERROR - 2016-01-16 18:07:39 --> Severity: Warning  --> preg_match(): Delimiter must not be alphanumeric or backslash C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 1067
+ERROR - 2016-01-16 18:07:39 --> Severity: Notice  --> Undefined property: Upload::$UploadHandler C:\wamp\www\PCMS\admin\controllers\upload.php 64
+ERROR - 2016-01-16 18:07:51 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:07:51 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:07:53 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:07:53 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:07:53 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:07:53 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:08:20 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:08:20 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:08:23 --> Severity: Notice  --> Undefined index: upload_dir C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 198
+ERROR - 2016-01-16 18:08:24 --> Severity: Notice  --> Undefined index: upload_url C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 225
+ERROR - 2016-01-16 18:08:24 --> Severity: Warning  --> preg_match(): Delimiter must not be alphanumeric or backslash C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 1067
+ERROR - 2016-01-16 18:08:24 --> Severity: Notice  --> Undefined property: Upload::$UploadHandler C:\wamp\www\PCMS\admin\controllers\upload.php 64
+ERROR - 2016-01-16 18:08:26 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:08:26 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:08:28 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:08:28 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:08:28 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:08:28 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:09:28 --> Severity: Notice  --> Undefined index: upload_dir C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 198
+ERROR - 2016-01-16 18:09:28 --> Severity: Notice  --> Undefined index: upload_dir C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 198
+ERROR - 2016-01-16 18:09:28 --> Severity: Notice  --> Undefined index: upload_url C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 225
+ERROR - 2016-01-16 18:09:28 --> Severity: Warning  --> preg_match(): Delimiter must not be alphanumeric or backslash C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 1067
+ERROR - 2016-01-16 18:09:28 --> Severity: Notice  --> Undefined property: Upload::$UploadHandler C:\wamp\www\PCMS\admin\controllers\upload.php 64
+ERROR - 2016-01-16 18:09:28 --> Severity: Notice  --> Undefined index: upload_url C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 225
+ERROR - 2016-01-16 18:09:28 --> Severity: Warning  --> preg_match(): Delimiter must not be alphanumeric or backslash C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 1067
+ERROR - 2016-01-16 18:09:28 --> Severity: Notice  --> Undefined property: Upload::$UploadHandler C:\wamp\www\PCMS\admin\controllers\upload.php 64
+ERROR - 2016-01-16 18:09:32 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:09:32 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:09:34 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:09:34 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:10:01 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:10:01 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:10:01 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:10:01 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:10:35 --> Severity: Notice  --> Undefined index: upload_dir C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 198
+ERROR - 2016-01-16 18:10:35 --> Severity: Notice  --> Undefined index: upload_url C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 225
+ERROR - 2016-01-16 18:10:35 --> Severity: Warning  --> preg_match(): Delimiter must not be alphanumeric or backslash C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 1067
+ERROR - 2016-01-16 18:10:35 --> Severity: Notice  --> Undefined property: Upload::$UploadHandler C:\wamp\www\PCMS\admin\controllers\upload.php 64
+ERROR - 2016-01-16 18:10:43 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:10:43 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:10:45 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:10:45 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:10:45 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:10:45 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:11:23 --> Severity: Notice  --> Undefined index: upload_dir C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 198
+ERROR - 2016-01-16 18:11:24 --> Severity: Notice  --> Undefined index: upload_url C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 225
+ERROR - 2016-01-16 18:11:24 --> Severity: Warning  --> preg_match(): Delimiter must not be alphanumeric or backslash C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 1067
+ERROR - 2016-01-16 18:11:24 --> Severity: Notice  --> Undefined property: Upload::$UploadHandler C:\wamp\www\PCMS\admin\controllers\upload.php 64
+ERROR - 2016-01-16 18:11:26 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:11:26 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:11:28 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:11:28 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:16:56 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:16:56 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:16:56 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:16:56 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:17:40 --> Severity: Notice  --> Undefined index: upload_dir C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 198
+ERROR - 2016-01-16 18:17:40 --> Severity: Notice  --> Undefined index: upload_url C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 225
+ERROR - 2016-01-16 18:17:40 --> Severity: Warning  --> preg_match(): Delimiter must not be alphanumeric or backslash C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 1067
+ERROR - 2016-01-16 18:17:40 --> Severity: Notice  --> Undefined property: Upload::$UploadHandler C:\wamp\www\PCMS\admin\controllers\upload.php 64
+ERROR - 2016-01-16 18:17:42 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:17:42 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:17:42 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:17:42 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:17:42 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:17:43 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:17:43 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:17:43 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:17:43 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:17:44 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:17:44 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:17:44 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:17:45 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:17:45 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:17:45 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:17:45 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:18:25 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:18:25 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:18:25 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:18:26 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:18:26 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:18:26 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:18:26 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:18:26 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:18:26 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:18:26 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:18:26 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:18:26 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:18:27 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:18:27 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:18:27 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:18:27 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:18:55 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:18:56 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:18:56 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:18:56 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:18:56 --> Severity: Notice  --> Undefined index: Content-Type C:\wamp\www\PCMS\libs\libraries\Uploader.php 189
+ERROR - 2016-01-16 18:18:56 --> Severity: Notice  --> iconv(): Wrong charset, conversion from `unicode' to `utf-8' is not allowed C:\wamp\www\PCMS\libs\libraries\Uploader.php 64
+ERROR - 2016-01-16 18:19:00 --> Severity: Notice  --> Undefined index: upload_dir C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 198
+ERROR - 2016-01-16 18:19:00 --> Severity: Notice  --> Undefined index: upload_url C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 225
+ERROR - 2016-01-16 18:19:00 --> Severity: Warning  --> preg_match(): Delimiter must not be alphanumeric or backslash C:\wamp\www\PCMS\libs\libraries\UploadHandler.php 1067
+ERROR - 2016-01-16 18:19:00 --> Severity: Notice  --> Undefined property: Upload::$UploadHandler C:\wamp\www\PCMS\admin\controllers\upload.php 64
+ERROR - 2016-01-16 18:19:05 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:19:05 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:19:07 --> Could not find the language line "acount"
+ERROR - 2016-01-16 18:19:07 --> Could not find the language line "acount"
