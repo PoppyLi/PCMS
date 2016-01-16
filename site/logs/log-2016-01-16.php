@@ -634,3 +634,112 @@ ERROR - 2016-01-16 15:36:51 --> Language file contains no data: language/zh_CN/c
 ERROR - 2016-01-16 15:36:51 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
 ERROR - 2016-01-16 15:36:51 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
 ERROR - 2016-01-16 15:36:55 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:52:12 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:52:28 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:52:29 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:52:29 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:52:29 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:52:33 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:52:33 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:52:33 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:52:35 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:52:35 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:52:35 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:52:39 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:52:45 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:52:45 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:52:45 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:52:47 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:52:51 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:52:51 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:52:51 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:52:52 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:52:52 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:52:52 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:36 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:37 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:37 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:37 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:37 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:37 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:37 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:38 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:38 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:38 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:39 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:39 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:40 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:40 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:40 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:40 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:41 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:41 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:41 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:42 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:42 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:42 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:42 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:42 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:42 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:43 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:43 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:43 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:45 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:45 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:45 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:46 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 15:53:46 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 15:53:46 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:08:59 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:08:59 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:08:59 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:00 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:03 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:04 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:05 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:05 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:06 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:07 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:08 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:08 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:08 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:10 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:12 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:13 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:15 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:15 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:15 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:17 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:19 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:19 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:19 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:20 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:22 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:22 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:22 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:23 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:25 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:25 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:25 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:26 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:28 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:29 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:29 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:30 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:30 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:30 --> Severity: Notice  --> Undefined index: title C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-16 16:09:31 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:32 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:33 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:33 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:33 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:33 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:35 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:35 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:35 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:37 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:39 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:39 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:40 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:40 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-16 16:09:41 --> Language file contains no data: language/zh_CN/common_lang.php

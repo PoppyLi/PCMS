@@ -23,6 +23,8 @@ class Decoration extends MY_Controller {
 	 	$vdata = $this->Comdata;
 
 	 	$vdata['article'] = $this->art->get_one(array('id' => $id,'audit' => 1,'status' => 1),'title,content,timeline,click');
+
+	 	$this->art->update(array('click' => $vdata['article']['click']+1),array('id' => $id));
 	 	$this->load->view('article',$vdata);
 	 }
 
