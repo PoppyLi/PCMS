@@ -45,6 +45,24 @@
 					<span class="help-inline"></span>
 				</div>
 			</div>
+			<div class="control-group">
+				<label for="img" class="control-label">缩略图</label>
+				<!-- 对应 photo 模板容器 js 开头为js操作的容器 -->
+				<div id="js-photo-show" class="js-img-list-f">
+					<!-- 模板 #tpl-img-list -->
+				</div>
+				<div class="controls">(134*94)
+					<div class="btn-group">
+						<span class="btn btn-success">
+							<i class="fa fa-upload"></i>
+							<span> <?php echo lang('upload_file') ?> </span>
+							<input class="fileupload" type="file" accept="">
+						</span>
+						<input type="hidden" name="photo" class="form-upload" data-more="0" value="<?php echo set_value('photo') ?>">
+						<input type="hidden" name="thumb" class="form-upload-thumb" value="<?php echo set_value('thumb') ?>">
+					</div>
+				</div>
+			</div>
 			<!-- 弹出 -->
 			<div id="seo-modal" class="modal hide fade">
 				<div class="modal-header">
@@ -75,10 +93,7 @@
 			<div class="control-group uefull">
 				<textarea id="content" name="content" ></textarea>
 			</div>
-			<!-- 对应 photo 模板容器 js 开头为js操作的容器 -->
-			<div id="js-photo-show" class="js-img-list-f">
-				<!-- 模板 #tpl-img-list -->
-			</div>
+			
 			<div class="clear"></div>
 		</div>
 

@@ -12,8 +12,18 @@ class Decoration extends MY_Controller {
 	 	$vdata = array();
 	 	$vdata = $this->Comdata;
 	 	
-	 	$vdata['content'] = $this->art->get_all(array('cid' => $cid,'audit' => 1),'id,cid,title,timeline');
+	 	$vdata['content'] = $this->art->get_all(array('cid' => $cid,'audit' => 1,'status' => 1),'id,cid,photo,title,content,timeline');
 	 	$this->load->view('Decoration',$vdata);
+	 }
+
+	 public function article($id = 0){
+	 	if(empty($id)) return false;
+
+	 	$vdata = array();
+	 	$vdata = $this->Comdata;
+
+	 	$vdata['article'] = $this->art->get_one(array('id' => $id,'audit' => 1,'status' => 1),'title,content,timeline,click');
+	 	$this->load->view('article',$vdata);
 	 }
 
 }

@@ -11,7 +11,16 @@
       </div>
 
       <div class="sidebar-con-right-con">        
-          
+          <?php foreach ($content as $k => $v) { ?>
+            <div class="newsinfo">
+                <a href="<?php echo site_url('decoration/article/'.$v['id'])?>"><img src="<?php echo UPLOAD_URL.tag_photo($v['photo']); ?> " alt="" width="134" height="94"></a>
+                <div class="nwstext">
+                    <a href="<?php echo site_url('decoration/article/'.$v['id'])?>"><h4><?php echo strcut(strip_tags($v['title']),30); ?></h4></a>
+                    <p><?php echo strcut(strip_tags($v['content']),80); ?></p>
+                    <div class="check"><a href="<?php echo site_url('decoration/article/'.$v['id'])?>">查看详情</a></div>
+                </div>
+            </div>
+            <?php } ?>
       </div>
     </div>
     <div class="clear"></div>
