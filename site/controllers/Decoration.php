@@ -24,6 +24,8 @@ class Decoration extends MY_Controller {
 
 	 	$vdata['article'] = $this->art->get_one(array('id' => $id,'audit' => 1,'status' => 1),'title,content,timeline,click');
 
+	 	$vdata['article'] = $this->art->get_one_pn(array('id' => $id,'audit' => 1,'status' => 1));
+
 	 	$this->art->update(array('click' => $vdata['article']['click']+1),array('id' => $id));
 	 	$this->load->view('article',$vdata);
 	 }
