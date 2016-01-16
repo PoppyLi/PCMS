@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50612
 File Encoding         : 65001
 
-Date: 2016-01-12 19:12:13
+Date: 2016-01-16 21:38:34
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -121,31 +121,31 @@ CREATE TABLE `pcms_article` (
   `click` int(11) NOT NULL DEFAULT '0' COMMENT '浏览次数',
   `recommend` int(1) NOT NULL DEFAULT '0' COMMENT '0:1推荐到分类门户的页面显示',
   `homepage` int(1) NOT NULL DEFAULT '0' COMMENT '0:1推荐到首页显示',
-  `recommend_photo` int(1) NOT NULL DEFAULT '0' COMMENT '0:1作为分类栏目的跑马灯图片新闻',
-  `homepage_photo` int(1) NOT NULL DEFAULT '0' COMMENT '0:1作为首页的跑马灯图片新闻',
   `color` int(1) NOT NULL DEFAULT '0' COMMENT '突显状态/颜色',
   `photo` tinytext COMMENT '相关图片',
   `thumb` tinytext COMMENT '图片缩略图',
   `attachment` tinytext COMMENT '附件',
-  `job` varchar(50) DEFAULT NULL,
-  `num` varchar(50) DEFAULT NULL,
-  `money` varchar(50) DEFAULT NULL,
-  `name` varchar(50) DEFAULT NULL,
-  `money_qy` varchar(50) DEFAULT NULL,
-  `time` int(11) DEFAULT NULL,
-  `place` varchar(50) DEFAULT NULL,
-  `money_rg` varchar(50) DEFAULT NULL,
-  `money_bl` varchar(50) DEFAULT NULL,
-  `money_yj` varchar(50) DEFAULT NULL,
-  `money_wj` varchar(50) DEFAULT NULL,
-  `money_mq` varchar(50) DEFAULT NULL,
-  `money_fh` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='信息表';
+) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COMMENT='信息表';
 
 -- ----------------------------
 -- Records of pcms_article
 -- ----------------------------
+INSERT INTO `pcms_article` VALUES ('1', '18', '0', '1', '1', '0', '0', null, 'MOBA 新作《典范》（Paragon）曝光新影片 介绍新增添功能', '', '  ', '', '<p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezwjfafvb5j20im0ahgll.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezwjfafvb5j20im0ahgll.jpg\"/></a></p><p>Epic Games 研发的 PC/PS4 MOBA 新作《典范（暂译，Paragon）》今日释出针对 Alpha 测试新公开一波解说影片，介绍新增添的功能。</p><p>&lt;iframe src=\"http://player.youku.com/embed/XMTQ0MjgzNjE4NA==\"&gt;&lt;/iframe><p></p><p>《典范》此次在测试更新中加入了游戏内文字聊天、合作退抗 AI 等内容，研发团队希望藉此影片来让玩家快速的了解此次线上测试所增添的新功能。</p><p>《典范》是款第三人称视点的战斗竞技游戏，玩家将以塔防玩法来分队对抗。</p><p>PC/PS4《典范》正在进行 Alpha 测试，而官网也开放玩家申请 Beta 测试资格中，游戏预定 2016 年问世。</p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezwjfdeg1vj21hc0u04ax.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezwjfdeg1vj21hc0u04ax.jpg\"/></a></p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezwjfjjkkkj21hc0u0nff.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezwjfjjkkkj21hc0u0nff.jpg\"/></a></p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezwjfnao1uj21hc0u0150.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezwjfnao1uj21hc0u0150.jpg\"/></a></p><p><a href=\"http://ww2.sinaimg.cn/large/c8363850gw1ezwjfv1bxuj21hc0u07se.jpg\"><img alt=\"\" src=\"http://ww2.sinaimg.cn/large/c8363850gw1ezwjfv1bxuj21hc0u07se.jpg\"/></a></p><p></p><p></p><p></p></p>', '1452828878', null, '1', null, null, null, null, '5', '0', '0', '0', '356', '2016/01/16/thumbnail/145293867712404ymr.jpg', null);
+INSERT INTO `pcms_article` VALUES ('2', '18', '0', '2', '1', '0', '0', null, '俯视角度动作射击《Alienation》发售日确定', '', '  ', '', '<p><a href=\"http://ww2.sinaimg.cn/large/c8363850gw1ezxscr4og4j21hc0u0494.jpg\"><img alt=\"\" src=\"http://ww2.sinaimg.cn/large/c8363850gw1ezxscr4og4j21hc0u0494.jpg\"/></a></p><p>Housemarque制作的PS 4独佔游戏《Alienation》到底什么时候发售，想必是很多玩家最想知道的答案。不久前，Housemarque为我们带来了确切的答案，那就是该作将于3月24日与大家见面。</p><p>&lt;iframe src=&quot;http://player.youku.com/embed/XMTQ0NDAxNTA0NA==&quot;&gt;&lt;/iframe&gt;<p></p><p>此前《Alienation》的发售日期一直被标注为3月2日，而根据Housemarque最新的推特消息，这个日期已经被推迟到3月24日了。虽然略微跳票，但好在时间并不算长，而且Housemarque也总算是给了大家一个淮信。对《Alienation》感兴趣的玩家大可以放心地期待。</p><p>《Alienation》是一款俯视角的动作射击游戏，多人联机部分将佔据很大一部分的比重。游戏中的元素极为丰富，玩家还需要收集资源，解锁能力，製作更多的强力武器。同时，团队协作也非常重要。最后一提，这款游戏为PS4独占。</p><p><a href=\"http://ww2.sinaimg.cn/large/c8363850gw1ezxse6igmjj218g0p0ai1.jpg\"><img alt=\"\" src=\"http://ww2.sinaimg.cn/large/c8363850gw1ezxse6igmjj218g0p0ai1.jpg\"/></a></p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxsdu0pk3j218g0p0ws9.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxsdu0pk3j218g0p0ws9.jpg\"/></a></p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxsdcony2j218g0p0amc.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxsdcony2j218g0p0amc.jpg\"/></a></p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxscx78mjj218g0p0tjx.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxscx78mjj218g0p0tjx.jpg\"/></a></p><p></p><p></p><p></p><p></p></p>', '1452829677', null, '1', null, null, null, null, '24', '0', '0', '0', '355', '2016/01/16/thumbnail/14529386279288pebed.jpg', null);
+INSERT INTO `pcms_article` VALUES ('3', '19', '0', '2', '1', '0', '0', null, '《国土防线2：革命》对抗北韩高科技军事力量', '', '  ', null, '<p>Deep Silver和Dambuster Studio为我们公佈了未来战争题材FPS《国土防线2：革命》的具体发售日期，该作将于5月17日发售。</p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezyyd14dqyj21hc0u0nc2.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezyyd14dqyj21hc0u0nc2.jpg\"/></a></p><p>该作将会登陆北美的PS 4，Xbox One，PC，Linux和Mac系统，欧洲等其他地区是5月20日。值得一提的是，这个发售日就是之前美国零售商Target洩露的发售日。</p><p>&lt;iframe src=\"http://player.youku.com/embed/XMTQ0NTA1NDc1Ng==\"&gt;&lt;/iframe><p></p><p>《国土防线 2》将于2月份在Xbox One独家展开封闭测试。为了参加测试，玩家需要有一个Xbox One Beta赠券。Deep Silver和Xbox在接下来的几週内会分发这些赠券。另外玩家也可以去官网注册，当分发赠券活动开始时会通知你。</p><p><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezyychenmtj21kw10tnmg.jpg\"><img alt=\"\" src=\"http://ww3.sinaimg.cn/large/c8363850gw1ezyychenmtj21kw10tnmg.jpg\"/></a></p><p>《国土防线2: 革命》故事发生在2029年，是2011年1代游戏《国土防线》结束后2年。主角Ethan Brady回归，领导一个抵抗军反抗北韩对美国费城的入侵。玩家将利用游击战形式对抗北韩高科技军事力量。除了 单人剧情外，游戏还支持4人在线合作模式。尽管《国土防线》在故事上和1代有牵连，但是开发商Dambuster表示新作所有一切都是新的，这也是为什么名字中没有加入2。</p><p>《国土防线》原本2015年发售，但后来被推迟到了2016年。THQ破产后，《Crysis》开发商Crytek花了54.4万美金买下了游戏版权，不过后来Crytek由于财政危机又把游戏转手卖给了Deep Silver。在转手的过程中，游戏的开发团队也换成了新的工作室Dambuster。</p><p></p><p></p><p></p></p>', '1452925978', null, '1', null, null, null, null, '13', '0', '0', '0', '350', '2016/01/16/thumbnail/145292603836968s5n4.jpg', null);
+INSERT INTO `pcms_article` VALUES ('4', '19', '0', '1', '1', '0', '0', null, '《毁灭战士 4》开场剧情与《毁灭战士3》联系', '', '  ', null, '<p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxswol7baj21040j5agc.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxswol7baj21040j5agc.jpg\"/></a></p><p>《毁灭战士 4》的最新截图，同时有消息表明游戏将在6月30日发售。现在Gameinformer为我们带来了本作的更多的新情报，让我们一起了解下吧。</p><p>BFG非常规武器，需特别按键</p><p>武器可加入Mod组合，比如将火箭筒加入遥控引爆装置</p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxsx9phs1j20zk0l9tfz.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxsx9phs1j20zk0l9tfz.jpg\"/></a></p><p>开场剧情与《毁灭战士&nbsp;3》联系，一位Olivia Pierce博士通过视频信息称其放出恶魔</p><p>同屏敌人提升</p><p>带色钥匙卡可解锁隐藏秘密</p><p>角色升级包括换枪速度，HP，弹夹容量</p><p>符文系统，一些符文技能比如近战之后角色加速</p><p>怪物包含弱点，比如粉色恶魔前面全副武装，后面为弱点</p><p><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezxswth39kj20zk0l3thr.jpg\"><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezxswth39kj20zk0l3thr.jpg\"><img alt=\"\" src=\"http://ww3.sinaimg.cn/large/c8363850gw1ezxswth39kj20zk0l3thr.jpg\"/></a></a></p><p>一个被描述为召唤者的恶魔种类</p><p>新作采用id Tech 6引擎同5代相同，但包含全新的物理基础渲染系统</p><p>“敌对”多人模式，统治风格模式，包括随意漂浮的控制地带</p><p>团队竞技场模式，经典大乱斗模式，各自为战</p><p>多人模式比单人模式的枪械更多，比如“闪电枪”</p><p><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezxsx2a0omj20zk0l9jz1.jpg\"><img alt=\"\" src=\"http://ww3.sinaimg.cn/large/c8363850gw1ezxsx2a0omj20zk0l9jz1.jpg\"/></a></p><p>通过自定义工具SnapMap打造众多模式，比如塔防，模组化单机任务，VIP护卫任务</p><p>可Mod敌人AI系统</p><p>SnapMap工具的素材将通过名为SmartHub系统发布</p><p>所有SnapMap创造的内容均为小型的指令文件</p><p>《毁灭战士&nbsp;4》将登陆Xbox One，PS 4，PC平台，敬请期待。</p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxsx6fnvej20zk0l77bf.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxsx6fnvej20zk0l77bf.jpg\"/></a></p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxsx4oaydj20zk0l4gr8.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxsx4oaydj20zk0l4gr8.jpg\"/></a></p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxswy4ogfj20zk0l80zk.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezxswy4ogfj20zk0l80zk.jpg\"/></a></p><p><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezxswvtmwsj20zk0l9475.jpg\"><img alt=\"\" src=\"http://ww3.sinaimg.cn/large/c8363850gw1ezxswvtmwsj20zk0l9475.jpg\"/></a></p><p><a href=\"http://ww2.sinaimg.cn/large/c8363850gw1ezxswr1imgj20zk0l4tgp.jpg\"><img alt=\"\" src=\"http://ww2.sinaimg.cn/large/c8363850gw1ezxswr1imgj20zk0l4tgp.jpg\"/></a></p><p><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezxswth39kj20zk0l3thr.jpg\"><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezxswth39kj20zk0l3thr.jpg\"><img alt=\"\" src=\"http://ww3.sinaimg.cn/large/c8363850gw1ezxswth39kj20zk0l3thr.jpg\"/></a></a></p><p></p>', '1452926125', null, '1', null, null, null, null, '21', '0', '0', '0', '352', '2016/01/16/thumbnail/14529261856319ki2l6.jpg', null);
+INSERT INTO `pcms_article` VALUES ('5', '20', '0', '3', '1', '0', '0', null, '《最终幻想 15》有两种战斗模式可选择', '', '  ', null, '<p><a href=\"http://ww4.sinaimg.cn/large/c8363850gw1ezxrrzzo8nj20zk0k0ahf.jpg\"><img width=\"765\" height=\"430\" src=\"http://ww4.sinaimg.cn/large/c8363850gw1ezxrrzzo8nj20zk0k0ahf.jpg\"/></a></p><p>《最终幻想 15》Altissia城的相关消息，并称该作将拥有两种战斗模式。好了，下面一起来看看吧。</p><p>“Altissia城内拥有不少区域，连咖啡馆，市场或者公园都有好几家。城市的规模也相当大，大到我们这些製作人有时都会迷路，”製作人Ishikawa Tomonori介绍道，“玩家可以自由在城中游览，逛逛街，体验一下这座城市的不同区域。如果你愿意的话，还可以去餐厅裡面发掘一下新乐子。此外，在游览这座城市的时候玩家还可以遇到一些相当独特的角色。”</p><p>说完了Altissia城还有战斗模式方面的新消息。“《最终幻想 15》拥有两种战斗模式，之所以这么做也是希望这款游戏能满足不同玩家的需求，毕竟有些人喜欢动作感，有的玩家则更偏爱慢节奏的战斗。这种战斗模式调整机制也是我们根据玩家反馈对游戏做出的调整。在不久后我们也会对这些内容发佈更多的细节。”</p><p>另一位製作人还为我们介绍了《最终幻想&nbsp;15》中的扭曲能力。“扭曲能力可以让玩家瞬间传送到极高的位置上，而这一功能对于《最终幻想 15》的战斗系统来说也是相当重要的。在城市区域巧妙利用多个扭曲点来进行传送对于一场战斗来说也格外重要。但适合使用扭曲能力的并非只有城市，我们专门为玩家打造了飞行的敌人甚至是大Boss，玩家还可以期待一下《最终幻想&nbsp;15》中的空中战斗。”</p><p></p>', '1452926806', null, '1', null, null, null, null, '15', '0', '0', '0', '353', '2016/01/16/thumbnail/14529268229936zmf3y.jpg', null);
+INSERT INTO `pcms_article` VALUES ('6', '20', '0', '4', '1', '0', '0', null, 'KONAMI 宣布美国时间 12 日展开《合金装备 Online》PC 版本 Beta 测试', '', '  ', null, '<p>KONAMI 宣布，《合金装备 5：幻痛（METAL GEAR SOLID V: THE PHANTOM PAIN）》的网路多人游玩模式《合金装备 Online（METAL GEAR ONLINE）》PC 版本 Beta 测试将于美国太平洋时间 1 月 12 日晚间 10 时起展开。</p><p>KONAMI 去年推出家用主机版本的《合金装备 Online》，但当时宣布 PC 版本将延迟到 2016 年 1 月推出，今日 KONAMI 透过《合金装备 5：幻痛》Steam 网页上，宣布了 PC 版本 Beta 测试的时程。</p><p><strong>以下为 KONAMI 去年东京电玩展公开的《合金装备 Online》介绍影片：</strong></p><p></p>', '1452926827', null, '1', null, null, null, null, '15', '0', '0', '0', '354', '2016/01/16/thumbnail/145292686107711354r.jpg', null);
+INSERT INTO `pcms_article` VALUES ('7', '19', '0', '5', '1', '0', '0', null, '德雷克可能以死来完结《神秘海域 4》的故事', '', '  ', null, '<p><a href=\"http://ww4.sinaimg.cn/large/c8363850gw1ezxrnz6t1oj21hc0u0te6.jpg\"><img width=\"765\" height=\"430\" src=\"http://ww4.sinaimg.cn/large/c8363850gw1ezxrnz6t1oj21hc0u0te6.jpg\"/></a></p><p>在Naughty Dog开发人员Druckmann在接受《太阳报》的採访时表示，《神秘海域 4》作为《神秘海域》系列最后一部压轴之作，也意味著德雷克时代的终结，顽皮狗将以最高的标淮完成他的故事。</p><p>他说：“随著故事的结束，要继续以他为主角推出续作实在太难了。可能会有一个前传，也有可能将来会换人。我不知道。但是《神秘海域&nbsp;4》将是德雷克的终结。对于这个角色我们已经开发了很长时间，他在游戏界的人气也是相当高，所以说我们的决定从商业角度看并不好。但是我认为尊敬他最好的方式就是继续以最高的标淮完成他的故事。”</p><p>《神秘海域&nbsp;4》除了单人模式外，还支持多人模式，加入了许多新的特性，包括AI队友，对抗敌人的神秘元素。多人模式支持900P/60 FPS，单人模式是1080P/30F PS。</p><p>《神秘海域&nbsp;4》德雷克是否会死，现在谁也不知道，毕竟游戏没发售，以上只是PSU的猜测。如果Naughty Dog这么安排，粉丝们能接受吗？</p><p>除了 《神秘海域》外，顽皮狗在本世代至少还会开发2个PS4独佔游戏，其中一个是《最后生还者 2》。</p><p></p>', '1452938760', null, '1', null, null, null, null, '2', '0', '0', '0', '357', '2016/01/16/thumbnail/14529387854411bc6kz.jpg', null);
+INSERT INTO `pcms_article` VALUES ('8', '19', '0', '6', '1', '0', '0', null, '来下载《GTA 5》MOD玩《看门狗', '', '  ', null, '<p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezwkcsu0hwj20gi08mjsu.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezwkcsu0hwj20gi08mjsu.jpg\"/></a></p><p>如果说之前有什么《GTA 5》MOD被称为过“神级MOD”的话，那它摆在这款MOD前面一定会黯然失色。因为这才是一个里程碑式的MOD，它让你真的感觉在玩另一款游戏。</p><p>一个名为“JulioNIB”的MOD的製作人将《看门狗》的黑客元素完全的移植到了《GTA 5》当中。</p><p><strong>&lt;---相关视频上传中</strong></p><p>你能够像在《看门狗》一样，黑进汽车防盗系统进行盗车、让ATM机不停吐钱、控制街边的摄像头和街上的路障，你甚至还可以让整座城市停电。这些让你相信它压根就是用《GTA 5》引擎做的一款《看门狗》！</p><p>如果你是PC版玩家的话，你也可以下载并亲身体验一下这款mod再聊聊你的感受。</p><p><strong>安装方法</strong></p><p><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezwo8m6lluj215o1smtrk.jpg\"><img width=\"1105\" height=\"1713\" src=\"http://ww3.sinaimg.cn/large/c8363850gw1ezwo8m6lluj215o1smtrk.jpg\"/></a></p><p></p>', '1452938802', null, '1', null, null, null, null, '2', '0', '0', '0', '359', '2016/01/16/thumbnail/14529388299734d7ue7.jpg', null);
+INSERT INTO `pcms_article` VALUES ('9', '19', '0', '7', '1', '0', '0', null, '《战争机器 4》今秋发售 依然有分屏功能', '', '  ', null, '<p><a href=\"http://ww2.sinaimg.cn/large/c8363850gw1ezwjzcq6daj21kw0w0gp5.jpg\"><img alt=\"\" src=\"http://ww2.sinaimg.cn/large/c8363850gw1ezwjzcq6daj21kw0w0gp5.jpg\"/></a></p><p>《光环 5》已于去年正式推出，这一Xbox招牌射击游戏不负众望带来了精彩的表现。而除了这款游戏，相信Xbox玩家们最期待的便是《战争机器 4》了。而在昨天进行的直播中，《战争机器 4》的製作人Rod Fergusson就确认，本作要比预期时间更早发售，将在2016年秋季上市。</p><p>在2015年的E3会展上，微软公佈《战争机器 4》将于2016年假期推出，当时许多人都认为这一时间应该是指2016年的圣诞节。不过现在看来玩家们至少不用再等到年底才能玩到这款次世代的射击游戏了。</p><p><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezwjzfjt2rj21hc0u07af.jpg\"><img alt=\"\" src=\"http://ww3.sinaimg.cn/large/c8363850gw1ezwjzfjt2rj21hc0u07af.jpg\"/></a></p><p>《战争机器 4》游戏首次採用全新形象的主角，主角不再是马库斯以及多姆，而是一个奶油帅哥一个妹子，而这一改动引发了许多争议。相较于前作，《战争机器 4》更加具有恐怖的气氛，甚至令人感觉有些类似《Dead Space》。此外，不久前官方确认《战争机器 4》将会继续加入分屏游戏功能，这一消息对于喜爱老游戏的玩家们来说这个消息简直不能再好了。</p><p>《战争机器 4》由The Coalition工作室开发，微软发行，预计将于2016年秋季正式推出，独占Xbox One平台，敬请期待。</p><p></p>', '1452938842', null, '1', null, null, null, null, '3', '0', '0', '0', '360', '2016/01/16/thumbnail/14529388595102kgnbu.jpg', null);
+INSERT INTO `pcms_article` VALUES ('10', '19', '0', '8', '1', '0', '0', null, 'CAPCOM 公司将公布两部《生化危机》作品', '', '  ', null, '<p><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezvgu6kazpj21hc0u0gwi.jpg\"><img width=\"765\" height=\"430\" src=\"http://ww3.sinaimg.cn/large/c8363850gw1ezvgu6kazpj21hc0u0gwi.jpg\"/></a></p><p>源引middleofnowheregaming的消息，根据一名自称是开发者的说法，CAPCOM公司将会公佈两部新作品，其一就是基本得到确认的《生化危机 6》次世代版，其二就是《生化危机：Outbreak》HD！</p><p>据这位不愿意透露姓名的开发者介绍，他本人在加拿大的一家独立工作室任职，而在签署相关文件时，他偶然间看到了《生化危机6》的登陆次世代主机的条款。此外他本人也参与了游戏的製作，所以他非常确信这就是《生化危机 6》</p><p>而另一款游戏《生化危机：Outbreak》HD则更显戏剧性。据曝光者透露，当时他所在的工作室正在开发一款类似《生化危机：爆发》姊妹篇的独立游戏，随后他们在2015年3月份将其寄给了CAPCOM。而CAPCOM在收到游戏后非常感动，不过这款游戏最后并没有登陆Steam青睐之光。</p><p>而到了6月份，CAPCOM正式邀请曝光者所在的工作室接下开发《生化危机：Outbreak》HD的工作，这便是事情的来龙去脉。</p><p>此外，曝光者还透露，合同中要求的最晚製作完成日期为2016年5月，所以预计《生化危机：Outbreak》HD会在2016年的E3上公佈。</p><p>虽然目前只有曝光者口述的情报，但考虑到卡普空的开发政策和不久前已经曝光的次世代版《生化危机6》，这一切还是值得一信的。而如果这些信息都属实，那么实在是为卡普空在炒冷饭道路上又添砖加瓦了一次，让我们拭目以待。</p><p>《生化危机：爆发》是一款《生化危机》系列外传性质作品，与正传各种大英雄冒险的剧情不同，本作描写了一群普通人逃离浣熊市的恐怖经历，所以对比起来《Outbreak》更加具有生存的压迫力。而这款游戏除了单机游戏外还支持在线联机游戏，与大家熟知的《Left 4 Dead》有些类似。</p><p></p>', '1452938873', null, '1', null, null, null, null, '2', '0', '0', '0', '361', '2016/01/16/thumbnail/14529389038349nbb52.jpg', null);
+INSERT INTO `pcms_article` VALUES ('11', '19', '0', '9', '1', '0', '0', null, '《苏菲的炼金工房～不可思议书的炼金术士～》中文版预定 2 月 2 日推出', '', '  ', null, '<p>光荣特库摩日前宣布，《炼金术士》系列最新作 PS4 / PS Vita 角色扮演游戏《苏菲的炼金工房 ～不可思议书的炼金术士～》中文版将于 2 月 2 日推出，同时公布了中文游戏画面。</p><p><a href=\"http://ww4.sinaimg.cn/large/c8363850gw1ezuh0wlkb4j20rh0brjvz.jpg\"><img alt=\"\" src=\"http://ww4.sinaimg.cn/large/c8363850gw1ezuh0wlkb4j20rh0brjvz.jpg\"/></a></p><h3>游戏介绍</h3><p>&lt;iframe src=\"http://player.youku.com/embed/XMTM3OTgwNzI2MA==\"&gt;&lt;/iframe><p></p><p>《苏菲的炼金工房 ～不可思议书的炼金术士～》是诞生许多《炼金术士》系列名作的 GUST 不断思考著要如何突破及创新「要怎么做，才能变得更有趣呢？」的答案。</p><p>那就是「回归炼金术的初衷」。炼金术是仔细听取物质的真实心声，实现物质心愿，替它们创造塑型的技术。</p><p>本作的目的在于，苏菲藉由发挥强大的炼金术力量，帮助失去大半记忆的普拉芙妲。利用炼金术，不断将新配方写入普拉芙妲当中，逐渐解开炼金术的记忆与普拉芙妲的记忆。初出茅庐的炼金术士新手－苏菲恢复炼金术记忆的旅程就此揭开序幕。</p><p>以最新《炼金术士》标淮为目标，全心打造回归初衷的《苏菲的炼金工房》起用 2 位插画巨匠－NOCO 与 Yuugen，随时间流逝瞬息万变的世界表现、以炼金术为中心发展的系统等等，至今未曾出现于游戏内的新设定、未曾挑战过的新尝试，这次都大胆导入游戏内。崭新的冒险，在此启程。</p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezuh0vk0r1j21hc0u07mn.jpg\"><img width=\"48%\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezuh0vk0r1j21hc0u07mn.jpg\"/></a>&nbsp;&nbsp;<a href=\"http://ww2.sinaimg.cn/large/c8363850gw1ezuh0s0ddxj21hc0u07os.jpg\"><img width=\"48%\" src=\"http://ww2.sinaimg.cn/large/c8363850gw1ezuh0s0ddxj21hc0u07os.jpg\"/></a></p><p><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezuh0nsfsbj21hc0u0dxn.jpg\"><img width=\"48%\" src=\"http://ww3.sinaimg.cn/large/c8363850gw1ezuh0nsfsbj21hc0u0dxn.jpg\"/></a>&nbsp;&nbsp;<a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezuh0jq08dj21hc0u0h2l.jpg\"><img width=\"48%\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezuh0jq08dj21hc0u0h2l.jpg\"/></a></p><p><a href=\"http://ww2.sinaimg.cn/large/c8363850gw1ezuh0gi3mnj21hc0u0h65.jpg\"><img width=\"48%\" src=\"http://ww2.sinaimg.cn/large/c8363850gw1ezuh0gi3mnj21hc0u0h65.jpg\"/></a>&nbsp;&nbsp;<a href=\"http://ww4.sinaimg.cn/large/c8363850gw1ezuh0cxna7j21hc0u0tmc.jpg\"><img width=\"48%\" src=\"http://ww4.sinaimg.cn/large/c8363850gw1ezuh0cxna7j21hc0u0tmc.jpg\"/></a></p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezuh09qpqmj21hc0u0aun.jpg\"><img width=\"48%\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezuh09qpqmj21hc0u0aun.jpg\"/></a>&nbsp;&nbsp;<a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezuh05pdjmj21hc0u0tvw.jpg\"><img width=\"48%\" src=\"http://ww3.sinaimg.cn/large/c8363850gw1ezuh05pdjmj21hc0u0tvw.jpg\"/></a></p><p>中文版预定同步推出一般版、附有 5 项特典的「特典版」以及超豪华组合的「典藏版」。其中「典藏版」为「特典版」内容物加上特大水晶纸镇与特制水晶钥匙圈的超豪华组合。</p><h3>一般版 产品内容</h3><p>产品名称：《苏菲的炼金工房 ～不可思议书的炼金术士～》中文版</p><p>对应主机：PlayStation 4／PlayStation Vita</p><p>游戏类型：錬金术重生 RPG</p><p>发售日期：2016 年 2 月 2 日发售预定</p><p>建议售价：PS4 版 1680 元 &nbsp;/ &nbsp;PS Vita 版 1380 元</p><p>游戏分级：辅 12 级</p><p><strong>首批特典</strong></p><p>苏菲的炼金工房 下载序号 珍藏包内容</p><p>普拉芙妲人偶炼成服装下载序号（※）</p><p>特别 BGM 包 下载序号</p><p>「炼金工房」系列历代錬金术士主题下载序号</p><h6>※ 开放可藉由人偶炼成用的普拉芙妲的服装。</h6><p>官方网站：<a href=\"http://www.gamecity.com.tw/sophie/\">http://www.gamecity.com.tw/sophie/</a></p><p>版权标示：© 2015-2016 KOEI TECMO GAMES CO., LTD. All rights reserved.</p><h3>特典版 产品内容</h3><p>产品名称：《苏菲的炼金工房 ～不可思议书的炼金术士～》中文版 特典版</p><p>发售日期：2016 年 2 月 2 日发售预定</p><p>建议售价：PS4 特典版 2380 元 &nbsp;/ &nbsp;PS Vita 特典版 2180 元</p><p><strong>产品内容</strong></p><p>游戏软体</p><p>苏菲的炼金工房美术资料集</p><p>苏菲的炼金工房典藏音乐</p><p>特制 B3 布制海报</p><p>透明人物书籤组</p><p>游戏内道具 5 种组合下载序号（DLC）（※）</p><h6>※ 1 个下载序号可以于 PS4 版 / PS Vita 版用 3 项道具的 5 种组合。各道具的 5 种组合之内容物各异。</h6><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezuh0x8oiqj20ku0bqjuo.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezuh0x8oiqj20ku0bqjuo.jpg\"/></a></p><p>特典版</p><h3>典藏版 产品内容</h3><p>产品名称:《苏菲的炼金工房 ～不可思议书的炼金术士～》中文版 典藏版</p><p>发售日期：2016 年 2 月 2 日发售预定</p><p>建议售价：PS4 典藏版 3880 元 &nbsp;/ &nbsp;PS Vita 典藏版 3680 元</p><p><strong>产品内容</strong></p><p>游戏软体</p><p>特大水晶纸镇</p><p>特制水晶钥匙圈</p><p>苏菲的炼金工房美术资料集</p><p>苏菲的炼金工房典藏音乐</p><p>特制 B3 布制海报</p><p>透明人物书籤组</p><p>游戏内道具 5 种组合下载序号（DLC）（※）</p><p>※ 1 个下载序号可以于 PS4 版 / PS Vita 版用 3 项道具的 5 种组合。各道具的 5 种组合之内容物各异。</p><p><a href=\"http://ww2.sinaimg.cn/large/c8363850gw1exs9n8u1d7j20ci071mxi.jpg\"><img width=\"48%\" src=\"http://ww2.sinaimg.cn/large/c8363850gw1exs9n8u1d7j20ci071mxi.jpg\"/></a>&nbsp;&nbsp;<a href=\"http://ww2.sinaimg.cn/large/c8363850gw1exs9n9esonj20ci071gmc.jpg\"><img width=\"48%\" style=\"color: rgb(34, 34, 34);\" src=\"http://ww2.sinaimg.cn/large/c8363850gw1exs9n9esonj20ci071gmc.jpg\"/></a></p><p>特大水晶纸镇/特制水晶钥匙圈</p><p></p><p></p><p></p></p>', '1452938908', null, '1', null, null, null, null, '1', '0', '0', '0', '363', '2016/01/16/thumbnail/1452938968487325uur.jpg', null);
+INSERT INTO `pcms_article` VALUES ('12', '19', '0', '10', '1', '0', '0', null, '《地狱之刃》确认年内发售', '', '  ', null, '<p><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezryqw44ihj20zk0k03zj.jpg\"><img alt=\"\" src=\"http://ww3.sinaimg.cn/large/c8363850gw1ezryqw44ihj20zk0k03zj.jpg\"/></a></p><p>《DmC:鬼泣》和《奴役:西游记》背后的工作室Ninja Theory今日在Twitter上确认，他们的新作《地狱之刃》将于2016年内发售。此外他们还提到PC和PS4版会同步上市，而不是PS4限时独占。</p><p><a href=\"http://ww2.sinaimg.cn/large/c8363850gw1ezryqv3vx5j21kw0zkguo.jpg\"><img alt=\"\" src=\"http://ww2.sinaimg.cn/large/c8363850gw1ezryqv3vx5j21kw0zkguo.jpg\"/></a></p><p>这家坐落在英国剑桥的著名动作游戏工作室，完成了Capcom的《DmC:&nbsp;鬼泣》之后带来了新的动作游戏《地狱之刃》。本作采用Unreal Engine 4开发，Ninja Theory强调这是一个独立3A游戏游戏。</p><p><a href=\"http://ww4.sinaimg.cn/large/c8363850gw1ezryqtocfij21kw0x0gtc.jpg\"><img alt=\"\" src=\"http://ww4.sinaimg.cn/large/c8363850gw1ezryqtocfij21kw0x0gtc.jpg\"/></a></p><p>本作的主角，Senua在“地狱般”的世界中开启了一段个人旅程，所谓地狱般的世界其实是Senua精神错乱的一个表现，本作的核心主题将聚焦精神病人的精神折磨和苦痛，Ninja Theory使用游戏方式来表现现实世界中一个比较严肃的话题。</p><p>当然由于Ninja Theory动作游戏起家，新作《地狱之刃》毫无疑问将少不了大量动作战斗。</p><p></p><p></p><p></p>', '1452939001', null, '1', null, null, null, null, '1', '0', '0', '0', '364', '2016/01/16/thumbnail/14529390358004wxcns.jpg', null);
+INSERT INTO `pcms_article` VALUES ('13', '19', '0', '11', '1', '0', '0', null, '《逃生2》（OutLast ）内比前作更大更多', '', '  ', null, '<p>曾经吓坏了无数玩家的《逃生》续集将会在2016年秋季再次掀起恐怖狂潮，游戏在2015年10月底公布后，也许久没有新消息了，近日开发商Red Barrels Games终于披露了《逃生 2 》的最新的截图，即将再度吓到你汗毛直立。</p><p><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezqwr3j4toj20zk0k00tk.jpg\"><img alt=\"\" src=\"http://ww3.sinaimg.cn/large/c8363850gw1ezqwr3j4toj20zk0k00tk.jpg\"/></a></p><p>《逃生2》以逆之十字架的“神之信仰”为主题，在Polygon的“2016年恐怖游戏一览”中曝光了这张新的截图，目前游戏细节尚未公布，不过已经可以从这张首先曝光的截图中看到，一位手持十字架武器的神秘人和一位酷似农夫的角色，相信《逃生 2》的更多情报也会在不日公佈。</p><p><a href=\"http://ww4.sinaimg.cn/large/c8363850gw1ezqwr2rs6jj20rs0gogq9.jpg\"><img alt=\"\" src=\"http://ww4.sinaimg.cn/large/c8363850gw1ezqwr2rs6jj20rs0gogq9.jpg\"/></a></p><p>《逃生 2》预计2016年秋季登录PS 4、Xbox One以及PC平台。</p><p></p>', '1452939045', null, '1', null, null, null, null, '1', '0', '0', '0', '365', '2016/01/16/thumbnail/14529390839886so0qs.jpg', null);
+INSERT INTO `pcms_article` VALUES ('14', '19', '0', '12', '1', '0', '0', null, '《孤岛惊魂:原始杀戮》原始人所讲的语言将是几千年前的语言', '', '  ', null, '<p>《孤岛惊魂:原始杀戮》被ESRB评为了M级18禁，而这是由于游戏包含很多诸如血腥暴力和裸体等元素。从这方面可以看出，育碧希望给《原始杀戮》带来更加真实的体验。</p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezpp91uq3xj21hc0u011g.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezpp91uq3xj21hc0u011g.jpg\"/></a></p><p>而实际上，除了大家能看到的真实细节外，你所“听到”的东西也会无比真实，近日育碧就透露：《原始杀戮》中原始人所讲的语言将真实还原几千年前的语言环境。</p><p><a href=\"http://ww2.sinaimg.cn/large/c8363850gw1ezpp8zxalaj20zk0k0n55.jpg\"><img alt=\"\" src=\"http://ww2.sinaimg.cn/large/c8363850gw1ezpp8zxalaj20zk0k0n55.jpg\"/></a></p><p>在开发的早期阶段，育碧考虑到《原始杀戮》发生的年代是在石器时代，而如果在游戏中让所有人都讲英语的话，违和感必然非常强烈，所以为了尽可能还原原始社会的真实生活，就必须研究出当时人类所讲的语言。</p><p>为此育碧专门邀请了人类学家和语言学家参与游戏的开发，创造出了“原始欧罗巴语”的设定，然而育碧觉得这还是不够，因为游戏中的原始社会的语言结构比这个还要更加简单而原始。</p><p><a href=\"http://ww4.sinaimg.cn/large/c8363850gw1ezpp8xkadbj215o0ngqk2.jpg\"><img alt=\"\" src=\"http://ww4.sinaimg.cn/large/c8363850gw1ezpp8xkadbj215o0ngqk2.jpg\"/></a></p><p>最终，语言学家与育碧继续进行努力，对游戏中的语言进行更多的简化。最后就创造了wenja语（wenja是游戏中的主要部落），而wenja语在游戏中还拥有三个变种，以适应不同的部落。</p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezpp8ylt8wj20zk0k0jv2.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezpp8ylt8wj20zk0k0jv2.jpg\"/></a></p><p>创意总监Jean-Christophe Guyot表示：“与语言学家们合作的过程非常愉快。他们对于这项工程感到非常激动，因为这是头一次复活一种几千年前的人类语言，对他们来说这具有非凡的科学意义，也是他们所嚮往的。”</p><p><a href=\"http://ww4.sinaimg.cn/large/c8363850gw1ezpp8ulvapj20xc0jgtim.jpg\"><img alt=\"\" src=\"http://ww4.sinaimg.cn/large/c8363850gw1ezpp8ulvapj20xc0jgtim.jpg\"/></a></p><p>《孤岛惊魂:原始杀戮》将于今年3月份推出，登陆PC/PS4/Xbox One 平台。</p><p></p>', '1452939416', null, '1', null, null, null, null, '1', '0', '0', '0', '366', '2016/01/16/thumbnail/14529394605445kh9iw.jpg', null);
+INSERT INTO `pcms_article` VALUES ('15', '19', '0', '13', '1', '0', '0', null, '白金工作室表示 Xbox One 独占全新动作游戏《龙鳞化身》将延期至 2017 年上市', '', '  ', null, '<p>根据白金工作室官方BLOG的发言，同公司开发的 Xbox One《龙鳞化身（Scalebound）》将延期至 2017 年发售。</p><p><a href=\"http://ww1.sinaimg.cn/large/c8363850gw1ezpmu9hgjej20zk0jgn8q.jpg\"><img alt=\"\" src=\"http://ww1.sinaimg.cn/large/c8363850gw1ezpmu9hgjej20zk0jgn8q.jpg\"/></a></p><p>《龙鳞化身》是一款于 Xbox One 独佔推出的全新动作游戏，在 2014 年的美国 E3 电玩展首度曝光。游戏中将登场形状和类型都各异的各种巨型怪兽，玩家所扮演的主角将要和身为伙伴的飞龙搭档战斗，在壮阔的场景中打倒敌对的巨大魔兽。</p><p><a href=\"http://ww4.sinaimg.cn/large/c8363850gw1ezpmuca8ufj20zk0m8ah7.jpg\"><img alt=\"\" src=\"http://ww4.sinaimg.cn/large/c8363850gw1ezpmuca8ufj20zk0m8ah7.jpg\"/></a></p><p>白金工作室同时在部落格表示《龙鳞化身》将是他们至今以来最大规模的游戏，他们将打造融合壮大美丽的幻想世界、自由的探险、崭新的多人游玩模式和充满动作性的战斗。</p><p><a href=\"http://ww3.sinaimg.cn/large/c8363850gw1ezpmuavdfdj20zk0m8jyc.jpg\"><img alt=\"\" src=\"http://ww3.sinaimg.cn/large/c8363850gw1ezpmuavdfdj20zk0m8jyc.jpg\"/></a></p><p>而对于要呈现上述内容的游戏完成度，他们需要更多的时间来满足这个充满野心的企划，所以决定将延期至 2017 年上市。目前开发状况渐入佳境，白金工作室也认为这款游戏为他们带来很多的新刺激和体验。未来他们将会持续释出本作的情报，有兴趣的玩家不妨持续追踪《龙鳞化身》的动向。</p><p></p>', '1452939465', null, '1', null, null, null, null, '13', '0', '0', '0', '367', '2016/01/16/thumbnail/145293954080793fonv.jpg', null);
 
 -- ----------------------------
 -- Table structure for pcms_article_tag
@@ -165,6 +165,50 @@ CREATE TABLE `pcms_article_tag` (
 -- ----------------------------
 
 -- ----------------------------
+-- Table structure for pcms_cases
+-- ----------------------------
+DROP TABLE IF EXISTS `pcms_cases`;
+CREATE TABLE `pcms_cases` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '唯一编号',
+  `cid` int(11) NOT NULL COMMENT '所属栏目',
+  `ccid` int(11) NOT NULL DEFAULT '0' COMMENT '栏目条目ID伪栏目',
+  `sort_id` int(11) DEFAULT '0' COMMENT '排序编号',
+  `audit` int(1) NOT NULL DEFAULT '0' COMMENT '0:1审核',
+  `flag` int(1) NOT NULL DEFAULT '0' COMMENT '0:1推荐',
+  `ctype` int(4) NOT NULL DEFAULT '0' COMMENT '默认分类',
+  `type_id` int(4) DEFAULT NULL COMMENT '类型',
+  `title` tinytext NOT NULL COMMENT '标题',
+  `title_seo` tinytext,
+  `intro` varchar(500) DEFAULT NULL COMMENT '简介(200汉字)',
+  `tags` tinytext COMMENT '标签',
+  `content` text COMMENT '内容',
+  `timeline` int(11) DEFAULT NULL COMMENT '发布/修改时间',
+  `expiretime` int(10) DEFAULT NULL COMMENT '公告过期时间',
+  `status` int(1) NOT NULL DEFAULT '0' COMMENT '0:1状态,1 发布，0 草稿',
+  `author` varchar(50) DEFAULT NULL COMMENT '消息作者',
+  `author_url` tinytext COMMENT '作者链接',
+  `source` varchar(50) DEFAULT NULL COMMENT '消息来源',
+  `source_url` tinytext COMMENT '来源链接',
+  `click` int(11) NOT NULL DEFAULT '0' COMMENT '浏览次数',
+  `recommend` int(1) NOT NULL DEFAULT '0' COMMENT '0:1推荐到分类门户的页面显示',
+  `homepage` int(1) NOT NULL DEFAULT '0' COMMENT '0:1推荐到首页显示',
+  `color` int(1) NOT NULL DEFAULT '0' COMMENT '突显状态/颜色',
+  `photo` tinytext COMMENT '相关图片',
+  `thumb` tinytext COMMENT '图片缩略图',
+  `attachment` tinytext COMMENT '附件',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='信息表';
+
+-- ----------------------------
+-- Records of pcms_cases
+-- ----------------------------
+INSERT INTO `pcms_cases` VALUES ('1', '21', '0', '1', '1', '0', '21', null, '灰色与薄荷色公寓', '', '  ', '', '<p>这间位于波兰的公寓将灰色与薄荷色搭配</p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103814_26482.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103814_15303.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103814_27814.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103815_42231.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103815_55285.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103815_48507.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103815_63791.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103815_50553.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103815_22057.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103815_92183.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103815_22236.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103815_66565.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103815_96539.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103815_96616.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103815_43565.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160111/20160111103815_57573.jpg\"/></p><p></p>', '1452948842', null, '1', null, null, null, null, '0', '0', '0', '0', '368', '2016/01/16/thumbnail/14529488775218lpk32.jpg', null);
+INSERT INTO `pcms_cases` VALUES ('2', '21', '0', '2', '1', '0', '22', null, '柏林田园风格小公寓', '', '  ', '', '<p>位于柏林的小公寓，自然元素、田园风格是公寓的亮点。</p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160107/20160107103520_66431.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160107/20160107103520_69059.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160107/20160107103520_94602.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160107/20160107103520_47661.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160107/20160107103520_89378.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160107/20160107103520_76470.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160107/20160107103521_15432.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160107/20160107103521_42733.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160107/20160107103521_37012.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160107/20160107103521_36564.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160107/20160107103522_59699.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20160107/20160107103522_36575.jpg\"/></p><p></p>', '1452949668', null, '1', null, null, null, null, '0', '0', '0', '0', '370', '2016/01/16/thumbnail/145294983441451ll7s.jpg', null);
+INSERT INTO `pcms_cases` VALUES ('3', '22', '0', '3', '1', '0', '27', null, '复古工业风格阁楼设计', '', '  ', null, '<p>伦敦1200平方英尺的空间，混凝土天花板营造出工业风格。厨房的复古蓝白瓷砖和浴室的黄白图案瓷砖、加上古典气息的雕塑和吊灯，让工业风格的简洁中又增加了古典的内涵。</p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20151117/20151117144525_24051.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20151117/20151117144526_54706.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20151117/20151117144526_96146.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20151117/20151117144527_38591.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20151117/20151117144527_78098.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20151117/20151117144528_63863.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20151117/20151117144529_72608.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20151117/20151117144547_59064.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20151117/20151117144547_91496.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20151117/20151117144547_50783.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20151117/20151117144633_44205.jpg\"/></p><p></p>', '1452949920', null, '1', null, null, null, null, '0', '0', '0', '0', '372', '2016/01/16/thumbnail/14529499479518c6ryg.jpg', null);
+INSERT INTO `pcms_cases` VALUES ('4', '23', '0', '4', '1', '0', '21', null, '专业铲屎官的家', '', '  ', null, '<p>装修新居时考虑过你家猫的感受吗？考虑过它们随时监督铲屎官的需求吗？考虑过客人到访时它们对隐蔽又安全的观测位置的需求吗？…… 看看别人家的铲屎官是怎么做的——一套暗藏玄机的北欧风格公寓。</p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150728/20150728131946_95553.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150728/20150728131947_76851.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150728/20150728131947_47183.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150728/20150728131948_11128.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150728/20150728131948_57628.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150728/20150728131949_27731.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150728/20150728131949_30879.jpg\"/></p><p></p>', '1452950050', null, '1', null, null, null, null, '0', '0', '0', '0', '373', '2016/01/16/thumbnail/14529501375177kad71.jpg', null);
+INSERT INTO `pcms_cases` VALUES ('5', '24', '0', '5', '1', '0', '25', null, '低调奢华的男性公寓', '', '  ', null, '<p>简约风格低调奢华的男性公寓，非常合适都市中的成功男性</p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150423/20150423085849_41797.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150423/20150423085849_42294.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150423/20150423085849_65892.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150423/20150423085849_56799.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150423/20150423085849_86549.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150423/20150423085849_27655.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150423/20150423085849_98011.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150423/20150423085850_83929.jpg\"/></p><p></p><p><img alt=\"\" src=\"http://www.yisheji.com/admin/plugin/kindeditor/attached/image/20150423/20150423085850_80282.jpg\"/></p><p></p>', '1452950145', null, '1', null, null, null, null, '0', '0', '0', '0', '374', '2016/01/16/thumbnail/14529501719361kf4df.jpg', null);
+
+-- ----------------------------
 -- Table structure for pcms_coltypes
 -- ----------------------------
 DROP TABLE IF EXISTS `pcms_coltypes`;
@@ -182,11 +226,19 @@ CREATE TABLE `pcms_coltypes` (
   `show` int(1) NOT NULL DEFAULT '1' COMMENT '显示',
   `title_en` varchar(30) NOT NULL COMMENT '标题类型',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=28 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of pcms_coltypes
 -- ----------------------------
+INSERT INTO `pcms_coltypes` VALUES ('20', '1', '0', '0', '4', 'ctype', '设计风格', '', '', '', '1', '');
+INSERT INTO `pcms_coltypes` VALUES ('21', '2', '20', '1', '4', 'ctype', '北欧', '', '', '', '1', '');
+INSERT INTO `pcms_coltypes` VALUES ('22', '3', '20', '1', '4', 'ctype', '田园', '', '', '', '1', '');
+INSERT INTO `pcms_coltypes` VALUES ('23', '4', '20', '1', '4', 'ctype', '法式', '', '', '', '1', '');
+INSERT INTO `pcms_coltypes` VALUES ('24', '5', '20', '1', '4', 'ctype', '混搭', '', '', '', '1', '');
+INSERT INTO `pcms_coltypes` VALUES ('25', '6', '20', '1', '4', 'ctype', '现代', '', '', '', '1', '');
+INSERT INTO `pcms_coltypes` VALUES ('26', '7', '20', '1', '4', 'ctype', '新古典', '', '', '', '1', '');
+INSERT INTO `pcms_coltypes` VALUES ('27', '8', '20', '1', '4', 'ctype', '其他', '', '', '', '1', '');
 
 -- ----------------------------
 -- Table structure for pcms_columns
@@ -209,11 +261,35 @@ CREATE TABLE `pcms_columns` (
   `status` int(1) NOT NULL DEFAULT '1' COMMENT '0删除 1正常',
   `show` int(1) NOT NULL DEFAULT '1' COMMENT '0隐藏 1正常',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=30 DEFAULT CHARSET=utf8 COMMENT='栏目';
+) ENGINE=MyISAM AUTO_INCREMENT=25 DEFAULT CHARSET=utf8 COMMENT='栏目';
 
 -- ----------------------------
 -- Records of pcms_columns
 -- ----------------------------
+INSERT INTO `pcms_columns` VALUES ('1', '1', '0', '0', 'home', '/home', '站点首页', '', '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('2', '5', '0', '0', 'company', '/company', '公司简介', '', '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('3', '11', '0', '0', 'decoration', '/decoration', '装修知识', '', '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('4', '12', '0', '0', 'cases', '/cases', '案例展示', '', '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('5', '13', '0', '0', 'service', '/service', '公司服务', '', '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('6', '14', '0', '0', 'guarantee', '/guarantee', '环保保障', '', '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('7', '15', '0', '0', 'design', '/design', '设计理念', '', '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('8', '16', '0', '0', 'recruit', '/recruit', '招贤纳士', '', '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('9', '17', '0', '0', 'contact', '/contact', '联系我们', '', '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('10', '2', '1', '1', 'banner', 'home/banner', 'banner', '', '', '', '5', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('11', '3', '1', '1', 'sidebar', 'home/sidebar', '联系方式', '', '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('12', '4', '1', '1', 'links', 'home/links', '友情链接', '', '', '', '4', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('13', '6', '2', '1', 'company', 'company/company', '公司简介', null, '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('14', '8', '2', '1', 'management', 'company/management', '经营理念', null, '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('15', '9', '2', '1', 'edge', 'company/edge', '企业锋芒', null, '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('16', '10', '2', '1', 'culture', 'company/culture', '公司文化', null, '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('17', '7', '2', '1', 'aboutus', 'company/aboutus', '关于我们', null, '', '', '1', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('18', '18', '3', '1', 'decoration', 'decoration/decoration', '装修知识', '', '', '', '2', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('19', '19', '3', '1', 'designguide', 'decoration/designguide', '设计指南', '', '', '', '2', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('20', '20', '3', '1', 'terrainguide', 'decoration/terrainguide', '风水指南', '', '', '', '2', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('21', '21', '4', '1', 'cases', 'cases/case', '案例展示', '', '', '', '8', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('22', '22', '4', '1', 'homecase', 'cases/homecase', '家装案例', '', '', '', '8', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('23', '23', '4', '1', 'workcase', 'cases/workcase', '办公案例', '', '', '', '8', '', '', '1', '1');
+INSERT INTO `pcms_columns` VALUES ('24', '24', '4', '1', 'exclusivecase', 'cases/exclusivecase', '专卖店案例', '', '', '', '8', '', '', '1', '1');
 
 -- ----------------------------
 -- Table structure for pcms_configs
@@ -237,9 +313,9 @@ INSERT INTO `pcms_configs` VALUES ('1', '1', 'adminer', 'title_suffix', '有限�
 INSERT INTO `pcms_configs` VALUES ('2', '9', 'site', 'copyright', 'Copyright ', 'CopyRight', '站点版权内容!');
 INSERT INTO `pcms_configs` VALUES ('3', '8', 'site', 'email', 'mail@mail.com', '联系邮箱', '网站联系人');
 INSERT INTO `pcms_configs` VALUES ('4', '4', 'site', 'title_suffix', '有限公司', '公司名称|品牌名称', '前台站点标题的后缀优化');
-INSERT INTO `pcms_configs` VALUES ('5', '5', 'site', 'title_seo', '', '首页标题[Title]', '网站首页优化标题');
-INSERT INTO `pcms_configs` VALUES ('6', '6', 'site', 'tags', '', '关键词[Keywords]', '网站首页关键词设定，使用`,`来间隔标签.');
-INSERT INTO `pcms_configs` VALUES ('7', '7', 'site', 'intro', '', '站点描述[Description]', '网站首页描述');
+INSERT INTO `pcms_configs` VALUES ('5', '5', 'site', 'title_seo', 'xx公司', '首页标题[Title]', '网站首页优化标题');
+INSERT INTO `pcms_configs` VALUES ('6', '6', 'site', 'tags', '关键词', '关键词[Keywords]', '网站首页关键词设定，使用`,`来间隔标签.');
+INSERT INTO `pcms_configs` VALUES ('7', '7', 'site', 'intro', '站点描述', '站点描述[Description]', '网站首页描述');
 INSERT INTO `pcms_configs` VALUES ('8', '10', 'site', 'icp', 'ICP', 'ICP编号', '');
 INSERT INTO `pcms_configs` VALUES ('9', '9', 'adminer', 'rember_hours', '72', '记住登录', '记住登录的时间，默认单位为小时。');
 INSERT INTO `pcms_configs` VALUES ('15', '10', 'adminer', 'nopurview', 'login,welcome,manager,ajax', '权限过滤', '');
@@ -249,7 +325,6 @@ INSERT INTO `pcms_configs` VALUES ('12', '13', 'email', 'account', '123@abc.com'
 INSERT INTO `pcms_configs` VALUES ('13', '14', 'email', 'pwd', '', '密码', '');
 INSERT INTO `pcms_configs` VALUES ('14', '15', 'email', 'port', '25', '端口', 'STMP端口[25]');
 INSERT INTO `pcms_configs` VALUES ('22', '12', 'email', 'name', '有限公司', '电邮名称', '邮件地址显示的名称');
-INSERT INTO `pcms_configs` VALUES ('16', '3', 'site', 'title', '前端标题 ', '网站标题', '用于保存前台站点的默认首页标题');
 INSERT INTO `pcms_configs` VALUES ('17', '0', 'upload', 'upload_size', '120m', '上传大小限制', '默认上传权限大小');
 INSERT INTO `pcms_configs` VALUES ('18', '0', 'upload', 'inline_file_types', 'gif|jpe?g|png|doc?|mp?|zip|pdf|pptx|ppt|docx', '上传后缀过滤', '文件类型的上传');
 INSERT INTO `pcms_configs` VALUES ('19', '0', 'upload', 'memory_limit', '120m', '内存限制', '');
@@ -310,11 +385,14 @@ CREATE TABLE `pcms_gallery` (
   `timeline` int(11) NOT NULL COMMENT '时间线',
   `words` tinytext,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 COMMENT='画廊';
+) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=utf8 COMMENT='画廊';
 
 -- ----------------------------
 -- Records of pcms_gallery
 -- ----------------------------
+INSERT INTO `pcms_gallery` VALUES ('17', '10', '0', '1', '1', '0', '0', 'ban1', '', '', '', '337', '2016/01/12/thumbnail/14526031875067l1xy1.jpg', '1452603189', null);
+INSERT INTO `pcms_gallery` VALUES ('18', '10', '0', '3', '1', '0', '0', 'ban3', '', '', '', '342', '2016/01/12/thumbnail/14526032733806cuah5.jpg', '1452603275', null);
+INSERT INTO `pcms_gallery` VALUES ('19', '10', '0', '2', '1', '0', '0', 'ban2', '', '', '', '343', '2016/01/12/thumbnail/14526033095307rw1sw.jpg', '1452603312', null);
 
 -- ----------------------------
 -- Table structure for pcms_links
@@ -337,11 +415,12 @@ CREATE TABLE `pcms_links` (
   `show` int(1) DEFAULT '1' COMMENT '是否显示',
   `timeline` int(11) DEFAULT NULL COMMENT '发布时间',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COMMENT='友情链接';
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COMMENT='友情链接';
 
 -- ----------------------------
 -- Records of pcms_links
 -- ----------------------------
+INSERT INTO `pcms_links` VALUES ('11', '12', '0', '1', '0', '0', '0', '百度链接', null, null, 'http://www.baidu.com', null, null, '1', '1452673606');
 
 -- ----------------------------
 -- Table structure for pcms_lists
@@ -379,11 +458,118 @@ CREATE TABLE `pcms_log` (
   `ip` varchar(20) NOT NULL COMMENT 'IP地址',
   `timeline` int(11) NOT NULL COMMENT '时间线',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1828 DEFAULT CHARSET=utf8 COMMENT='操作日志';
+) ENGINE=MyISAM AUTO_INCREMENT=1940 DEFAULT CHARSET=utf8 COMMENT='操作日志';
 
 -- ----------------------------
 -- Records of pcms_log
 -- ----------------------------
+INSERT INTO `pcms_log` VALUES ('1833', 'login', '/admin/index.php/login?url=http://localhost:85/admin/index.php?', 'login', 'manager ID 1: 登录成功！', '1', '0.0.0.0', '1452598430');
+INSERT INTO `pcms_log` VALUES ('1834', 'gallery', '/admin/index.php/gallery/create?c=10', 'create', '添加数据id:17', '1', '0.0.0.0', '1452603189');
+INSERT INTO `pcms_log` VALUES ('1835', 'gallery', '/admin/index.php/gallery/create?c=10', 'create', '添加数据id:18', '1', '0.0.0.0', '1452603275');
+INSERT INTO `pcms_log` VALUES ('1836', 'upload', '/admin/index.php/upload/delete', 'delete', '删除文件ID:344', '1', '0.0.0.0', '1452603311');
+INSERT INTO `pcms_log` VALUES ('1837', 'gallery', '/admin/index.php/gallery/create?c=10', 'create', '添加数据id:19', '1', '0.0.0.0', '1452603312');
+INSERT INTO `pcms_log` VALUES ('1838', 'gallery', '/admin/index.php/gallery/sortid?c=10&ids=18%2C19%2C17&sort=2%2C3%2C1&sortby=desc', 'sort', '对数据排序:ID: [18,19,17]顺序改为[3,2,1]', '1', '0.0.0.0', '1452603321');
+INSERT INTO `pcms_log` VALUES ('1839', 'columns', '/admin/index.php/columns/edit/1', 'update', '更新数据id:1', '1', '0.0.0.0', '1452603582');
+INSERT INTO `pcms_log` VALUES ('1840', 'login', '/admin/index.php/login?url=http://localhost:85/admin/index.php?', 'login', 'manager ID 1: 登录成功！', '1', '0.0.0.0', '1452645593');
+INSERT INTO `pcms_log` VALUES ('1841', 'gallery', '/admin/index.php/gallery/audit?c=10', 'audit', '审核数据ID：18为1', '1', '0.0.0.0', '1452667902');
+INSERT INTO `pcms_log` VALUES ('1842', 'gallery', '/admin/index.php/gallery/audit?c=10', 'audit', '审核数据ID：19为1', '1', '0.0.0.0', '1452667903');
+INSERT INTO `pcms_log` VALUES ('1843', 'gallery', '/admin/index.php/gallery/audit?c=10', 'audit', '审核数据ID：17为1', '1', '0.0.0.0', '1452667904');
+INSERT INTO `pcms_log` VALUES ('1844', 'configs', '/admin/index.php/configs/set', 'edit', '修改配置site.title_seo:xx', '1', '0.0.0.0', '1452670117');
+INSERT INTO `pcms_log` VALUES ('1845', 'configs', '/admin/index.php/configs/set', 'edit', '修改配置site.title_seo:xx公司', '1', '0.0.0.0', '1452670118');
+INSERT INTO `pcms_log` VALUES ('1846', 'configs', '/admin/index.php/configs/set', 'edit', '修改配置site.tags:关键词', '1', '0.0.0.0', '1452670122');
+INSERT INTO `pcms_log` VALUES ('1847', 'configs', '/admin/index.php/configs/set', 'edit', '修改配置site.intro:站点描述', '1', '0.0.0.0', '1452670133');
+INSERT INTO `pcms_log` VALUES ('1848', 'page', '/admin/index.php/page/edit?c=11', 'update', '更新数据id:20', '1', '0.0.0.0', '1452672727');
+INSERT INTO `pcms_log` VALUES ('1849', 'page', '/admin/index.php/page/edit?c=11', 'update', '更新数据id:20', '1', '0.0.0.0', '1452672739');
+INSERT INTO `pcms_log` VALUES ('1850', 'page', '/admin/index.php/page/edit?c=2', 'update', '更新数据id:13', '1', '0.0.0.0', '1452672756');
+INSERT INTO `pcms_log` VALUES ('1851', 'page', '/admin/index.php/page/edit?c=11', 'update', '更新数据id:20', '1', '0.0.0.0', '1452673489');
+INSERT INTO `pcms_log` VALUES ('1852', 'links', '/admin/index.php/links/create?c=12', 'create', '添加数据id:11', '1', '0.0.0.0', '1452673606');
+INSERT INTO `pcms_log` VALUES ('1853', 'login', '/admin/index.php/login?url=http://localhost:85/admin/index.php?', 'login', 'manager ID 1: 登录成功！', '1', '0.0.0.0', '1452744039');
+INSERT INTO `pcms_log` VALUES ('1854', 'login', '/admin/index.php/login?url=http://localhost:85/admin/index.php?', 'login', 'manager ID 1: 登录成功！', '1', '0.0.0.0', '1452751799');
+INSERT INTO `pcms_log` VALUES ('1855', 'columns', '/admin/index.php/columns/sortid?ids=1%2C10%2C11%2C12%2C2%2C13%2C17%2C14%2C15%2C16%2C3%2C4%2C5%2C6%2C7%2C8%2C9&sort=1%2C10%2C11%2C12%2C2%2C13%2C17%2C14%2C15%2C16%2C3%2C4%2C5%2C6%2C7%2C8%2C9&sortby=asc', 'sort', '对数据排序:ID: [1,10,11,12,2,13,17,14,15,16,3,4,5,6,7,8,9]顺序改为[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]', '1', '0.0.0.0', '1452752880');
+INSERT INTO `pcms_log` VALUES ('1856', 'columns', '/admin/index.php/columns/sortid?ids=1%2C10%2C11%2C12%2C2%2C17%2C13%2C14%2C15%2C16%2C3%2C4%2C5%2C6%2C7%2C8%2C9&sort=1%2C10%2C11%2C12%2C2%2C17%2C13%2C14%2C15%2C16%2C3%2C4%2C5%2C6%2C7%2C8%2C9&sortby=asc', 'sort', '对数据排序:ID: [1,10,11,12,2,17,13,14,15,16,3,4,5,6,7,8,9]顺序改为[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]', '1', '0.0.0.0', '1452752883');
+INSERT INTO `pcms_log` VALUES ('1857', 'columns', '/admin/index.php/columns/sortid?ids=1%2C10%2C11%2C12%2C2%2C13%2C17%2C14%2C15%2C16%2C3%2C4%2C5%2C6%2C7%2C8%2C9&sort=1%2C2%2C3%2C4%2C5%2C7%2C6%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15%2C16%2C17&sortby=asc', 'sort', '对数据排序:ID: [1,10,11,12,2,13,17,14,15,16,3,4,5,6,7,8,9]顺序改为[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]', '1', '0.0.0.0', '1452755424');
+INSERT INTO `pcms_log` VALUES ('1858', 'login', '/admin/index.php/login?url=http://localhost:85/admin/index.php?', 'login', 'manager ID 1: 登录成功！', '1', '0.0.0.0', '1452757029');
+INSERT INTO `pcms_log` VALUES ('1859', 'page', '/admin/index.php/page/edit?c=17', 'update', '更新数据id:25', '1', '0.0.0.0', '1452757329');
+INSERT INTO `pcms_log` VALUES ('1860', 'page', '/admin/index.php/page/edit?c=14', 'update', '更新数据id:22', '1', '0.0.0.0', '1452775111');
+INSERT INTO `pcms_log` VALUES ('1861', 'page', '/admin/index.php/page/edit?c=15', 'update', '更新数据id:23', '1', '0.0.0.0', '1452775121');
+INSERT INTO `pcms_log` VALUES ('1862', 'page', '/admin/index.php/page/edit?c=16', 'update', '更新数据id:24', '1', '0.0.0.0', '1452775130');
+INSERT INTO `pcms_log` VALUES ('1863', 'article', '/admin/index.php/article/create?c=18', 'create', '添加数据id:1', '1', '0.0.0.0', '1452829674');
+INSERT INTO `pcms_log` VALUES ('1864', 'article', '/admin/index.php/article/create/?c=18', 'create', '添加数据id:2', '1', '0.0.0.0', '1452829714');
+INSERT INTO `pcms_log` VALUES ('1865', 'article', '/admin/index.php/article/audit?c=18', 'audit', '审核数据ID：2为1', '1', '0.0.0.0', '1452829953');
+INSERT INTO `pcms_log` VALUES ('1866', 'article', '/admin/index.php/article/audit?c=18', 'audit', '审核数据ID：1为1', '1', '0.0.0.0', '1452829955');
+INSERT INTO `pcms_log` VALUES ('1867', 'upload', '/admin/index.php/upload/delete', 'delete', '删除文件ID:347', '1', '0.0.0.0', '1452925520');
+INSERT INTO `pcms_log` VALUES ('1868', 'article', '/admin/index.php/article/edit/1?c=18', 'update', '更新数据id:1', '1', '0.0.0.0', '1452925587');
+INSERT INTO `pcms_log` VALUES ('1869', 'article', '/admin/index.php/article/edit/2?c=18', 'update', '更新数据id:2', '1', '0.0.0.0', '1452925616');
+INSERT INTO `pcms_log` VALUES ('1870', 'article', '/admin/index.php/article/create?c=19', 'create', '添加数据id:3', '1', '0.0.0.0', '1452926060');
+INSERT INTO `pcms_log` VALUES ('1871', 'upload', '/admin/index.php/upload/delete', 'delete', '删除文件ID:351', '1', '0.0.0.0', '1452926185');
+INSERT INTO `pcms_log` VALUES ('1872', 'article', '/admin/index.php/article/create?c=19', 'create', '添加数据id:4', '1', '0.0.0.0', '1452926194');
+INSERT INTO `pcms_log` VALUES ('1873', 'article', '/admin/index.php/article/audit?c=19', 'audit', '审核数据ID：4为1', '1', '0.0.0.0', '1452926356');
+INSERT INTO `pcms_log` VALUES ('1874', 'article', '/admin/index.php/article/audit?c=19', 'audit', '审核数据ID：3为1', '1', '0.0.0.0', '1452926357');
+INSERT INTO `pcms_log` VALUES ('1875', 'article', '/admin/index.php/article/create?c=20', 'create', '添加数据id:5', '1', '0.0.0.0', '1452926825');
+INSERT INTO `pcms_log` VALUES ('1876', 'article', '/admin/index.php/article/create/?c=20', 'create', '添加数据id:6', '1', '0.0.0.0', '1452926864');
+INSERT INTO `pcms_log` VALUES ('1877', 'article', '/admin/index.php/article/audit?c=20', 'audit', '审核数据ID：6为1', '1', '0.0.0.0', '1452926873');
+INSERT INTO `pcms_log` VALUES ('1878', 'article', '/admin/index.php/article/audit?c=20', 'audit', '审核数据ID：5为1', '1', '0.0.0.0', '1452926874');
+INSERT INTO `pcms_log` VALUES ('1879', 'article', '/admin/index.php/article/edit/2?c=18', 'update', '更新数据id:2', '1', '0.0.0.0', '1452938595');
+INSERT INTO `pcms_log` VALUES ('1880', 'upload', '/admin/index.php/upload/delete', 'delete', '删除文件ID:349', '1', '0.0.0.0', '1452938623');
+INSERT INTO `pcms_log` VALUES ('1881', 'article', '/admin/index.php/article/edit/2?c=18', 'update', '更新数据id:2', '1', '0.0.0.0', '1452938653');
+INSERT INTO `pcms_log` VALUES ('1882', 'upload', '/admin/index.php/upload/delete', 'delete', '删除文件ID:348', '1', '0.0.0.0', '1452938672');
+INSERT INTO `pcms_log` VALUES ('1883', 'article', '/admin/index.php/article/edit/1?c=18', 'update', '更新数据id:1', '1', '0.0.0.0', '1452938696');
+INSERT INTO `pcms_log` VALUES ('1884', 'article', '/admin/index.php/article/create?c=19', 'create', '添加数据id:7', '1', '0.0.0.0', '1452938800');
+INSERT INTO `pcms_log` VALUES ('1885', 'upload', '/admin/index.php/upload/delete', 'delete', '删除文件ID:358', '1', '0.0.0.0', '1452938830');
+INSERT INTO `pcms_log` VALUES ('1886', 'article', '/admin/index.php/article/create/?c=19', 'create', '添加数据id:8', '1', '0.0.0.0', '1452938841');
+INSERT INTO `pcms_log` VALUES ('1887', 'article', '/admin/index.php/article/create/?c=19', 'create', '添加数据id:9', '1', '0.0.0.0', '1452938871');
+INSERT INTO `pcms_log` VALUES ('1888', 'article', '/admin/index.php/article/create/?c=19', 'create', '添加数据id:10', '1', '0.0.0.0', '1452938906');
+INSERT INTO `pcms_log` VALUES ('1889', 'upload', '/admin/index.php/upload/delete', 'delete', '删除文件ID:362', '1', '0.0.0.0', '1452938968');
+INSERT INTO `pcms_log` VALUES ('1890', 'article', '/admin/index.php/article/create/?c=19', 'create', '添加数据id:11', '1', '0.0.0.0', '1452938972');
+INSERT INTO `pcms_log` VALUES ('1891', 'article', '/admin/index.php/article/audit?c=19', 'audit', '审核数据ID：11为1', '1', '0.0.0.0', '1452938992');
+INSERT INTO `pcms_log` VALUES ('1892', 'article', '/admin/index.php/article/audit?c=19', 'audit', '审核数据ID：10为1', '1', '0.0.0.0', '1452938993');
+INSERT INTO `pcms_log` VALUES ('1893', 'article', '/admin/index.php/article/audit?c=19', 'audit', '审核数据ID：9为1', '1', '0.0.0.0', '1452938993');
+INSERT INTO `pcms_log` VALUES ('1894', 'article', '/admin/index.php/article/audit?c=19', 'audit', '审核数据ID：8为1', '1', '0.0.0.0', '1452938994');
+INSERT INTO `pcms_log` VALUES ('1895', 'article', '/admin/index.php/article/audit?c=19', 'audit', '审核数据ID：7为1', '1', '0.0.0.0', '1452938995');
+INSERT INTO `pcms_log` VALUES ('1896', 'article', '/admin/index.php/article/create?c=19', 'create', '添加数据id:12', '1', '0.0.0.0', '1452939043');
+INSERT INTO `pcms_log` VALUES ('1897', 'article', '/admin/index.php/article/create/?c=19', 'create', '添加数据id:13', '1', '0.0.0.0', '1452939086');
+INSERT INTO `pcms_log` VALUES ('1898', 'article', '/admin/index.php/article/audit?c=19', 'audit', '审核数据ID：13为1', '1', '0.0.0.0', '1452939102');
+INSERT INTO `pcms_log` VALUES ('1899', 'article', '/admin/index.php/article/audit?c=19', 'audit', '审核数据ID：12为1', '1', '0.0.0.0', '1452939103');
+INSERT INTO `pcms_log` VALUES ('1900', 'article', '/admin/index.php/article/create?c=19', 'create', '添加数据id:14', '1', '0.0.0.0', '1452939463');
+INSERT INTO `pcms_log` VALUES ('1901', 'article', '/admin/index.php/article/create/?c=19', 'create', '添加数据id:15', '1', '0.0.0.0', '1452939545');
+INSERT INTO `pcms_log` VALUES ('1902', 'article', '/admin/index.php/article/audit?c=19', 'audit', '审核数据ID：15为1', '1', '0.0.0.0', '1452939567');
+INSERT INTO `pcms_log` VALUES ('1903', 'article', '/admin/index.php/article/audit?c=19', 'audit', '审核数据ID：14为1', '1', '0.0.0.0', '1452939568');
+INSERT INTO `pcms_log` VALUES ('1904', 'modules', '/admin/index.php/modules/edit/3', 'update', '更新数据id:3', '1', '0.0.0.0', '1452943184');
+INSERT INTO `pcms_log` VALUES ('1905', 'modules', '/admin/index.php/modules/edit/3', 'update', '更新数据id:3', '1', '0.0.0.0', '1452943240');
+INSERT INTO `pcms_log` VALUES ('1906', 'modules', '/admin/index.php/modules/create', 'create', '添加数据id:8', '1', '0.0.0.0', '1452943324');
+INSERT INTO `pcms_log` VALUES ('1907', 'columns', '/admin/index.php/columns/edit/21', 'update', '更新数据id:21', '1', '0.0.0.0', '1452943338');
+INSERT INTO `pcms_log` VALUES ('1908', 'columns', '/admin/index.php/columns/edit/22', 'update', '更新数据id:22', '1', '0.0.0.0', '1452943348');
+INSERT INTO `pcms_log` VALUES ('1909', 'columns', '/admin/index.php/columns/edit/23', 'update', '更新数据id:23', '1', '0.0.0.0', '1452943356');
+INSERT INTO `pcms_log` VALUES ('1910', 'columns', '/admin/index.php/columns/edit/24', 'update', '更新数据id:24', '1', '0.0.0.0', '1452943366');
+INSERT INTO `pcms_log` VALUES ('1911', 'modules', '/admin/index.php/modules/sortid?ids=1%2C2%2C8%2C3%2C4%2C5%2C6%2C7&sort=1%2C2%2C8%2C3%2C4%2C5%2C6%2C7&sortby=desc', 'sort', '对数据排序:ID: [1,2,8,3,4,5,6,7]顺序改为[8,7,6,5,4,3,2,1]', '1', '0.0.0.0', '1452943382');
+INSERT INTO `pcms_log` VALUES ('1912', 'modules', '/admin/index.php/modules/edit/8', 'update', '更新数据id:8', '1', '0.0.0.0', '1452944298');
+INSERT INTO `pcms_log` VALUES ('1913', 'coltypes', '/admin/index.php/coltypes/create?cid=4&field=ctype&rc=page', 'create', '添加数据id:20', '1', '0.0.0.0', '1452945363');
+INSERT INTO `pcms_log` VALUES ('1914', 'coltypes', '/admin/index.php/coltypes/create?cid=4&field=ctype&rc=page', 'create', '添加数据id:21', '1', '0.0.0.0', '1452945440');
+INSERT INTO `pcms_log` VALUES ('1915', 'coltypes', '/admin/index.php/coltypes/create/?cid=4&field=ctype&rc=page', 'create', '添加数据id:22', '1', '0.0.0.0', '1452945454');
+INSERT INTO `pcms_log` VALUES ('1916', 'coltypes', '/admin/index.php/coltypes/create?cid=4&field=ctype&rc=page', 'create', '添加数据id:23', '1', '0.0.0.0', '1452946141');
+INSERT INTO `pcms_log` VALUES ('1917', 'coltypes', '/admin/index.php/coltypes/create/?cid=4&field=ctype&rc=page', 'create', '添加数据id:24', '1', '0.0.0.0', '1452946153');
+INSERT INTO `pcms_log` VALUES ('1918', 'coltypes', '/admin/index.php/coltypes/create/?cid=4&field=ctype&rc=page', 'create', '添加数据id:25', '1', '0.0.0.0', '1452946166');
+INSERT INTO `pcms_log` VALUES ('1919', 'coltypes', '/admin/index.php/coltypes/create/?cid=4&field=ctype&rc=page', 'create', '添加数据id:26', '1', '0.0.0.0', '1452946174');
+INSERT INTO `pcms_log` VALUES ('1920', 'coltypes', '/admin/index.php/coltypes/create?cid=4&field=ctype&rc=page', 'create', '添加数据id:27', '1', '0.0.0.0', '1452947416');
+INSERT INTO `pcms_log` VALUES ('1921', 'cases', '/admin/index.php/cases/create?c=21', 'create', '添加数据id:1', '1', '0.0.0.0', '1452948934');
+INSERT INTO `pcms_log` VALUES ('1922', 'cases', '/admin/index.php/cases/audit?c=21', 'audit', '审核数据ID：1为1', '1', '0.0.0.0', '1452949571');
+INSERT INTO `pcms_log` VALUES ('1923', 'cases', '/admin/index.php/cases/flag?c=21', 'flag', '推荐数据ID：1为1', '1', '0.0.0.0', '1452949606');
+INSERT INTO `pcms_log` VALUES ('1924', 'cases', '/admin/index.php/cases/flag?c=21', 'flag', '推荐数据ID：1为0', '1', '0.0.0.0', '1452949608');
+INSERT INTO `pcms_log` VALUES ('1925', 'cases', '/admin/index.php/cases/edit/1?c=21', 'update', '更新数据id:1', '1', '0.0.0.0', '1452949634');
+INSERT INTO `pcms_log` VALUES ('1926', 'cases', '/admin/index.php/cases/edit/1?c=21', 'update', '更新数据id:1', '1', '0.0.0.0', '1452949645');
+INSERT INTO `pcms_log` VALUES ('1927', 'cases', '/admin/index.php/cases/create?c=21', 'create', '添加数据id:2', '1', '0.0.0.0', '1452949804');
+INSERT INTO `pcms_log` VALUES ('1928', 'cases', '/admin/index.php/cases/audit?c=21', 'audit', '审核数据ID：2为1', '1', '0.0.0.0', '1452949808');
+INSERT INTO `pcms_log` VALUES ('1929', 'upload', '/admin/index.php/upload/delete', 'delete', '删除文件ID:369', '1', '0.0.0.0', '1452949823');
+INSERT INTO `pcms_log` VALUES ('1930', 'cases', '/admin/index.php/cases/edit/2?c=21', 'update', '更新数据id:2', '1', '0.0.0.0', '1452949846');
+INSERT INTO `pcms_log` VALUES ('1931', 'login', '/admin/index.php/login?url=http://localhost:85/admin/index.php/cases/create?c=22', 'login', 'manager ID 1: 登录成功！', '1', '0.0.0.0', '1452949911');
+INSERT INTO `pcms_log` VALUES ('1932', 'cases', '/admin/index.php/cases/create?c=22', 'create', '添加数据id:3', '1', '0.0.0.0', '1452949954');
+INSERT INTO `pcms_log` VALUES ('1933', 'cases', '/admin/index.php/cases/create?c=23', 'create', '添加数据id:4', '1', '0.0.0.0', '1452950140');
+INSERT INTO `pcms_log` VALUES ('1934', 'cases', '/admin/index.php/cases/create?c=24', 'create', '添加数据id:5', '1', '0.0.0.0', '1452950187');
+INSERT INTO `pcms_log` VALUES ('1935', 'columns', '/admin/index.php/columns/edit/4', 'update', '更新数据id:4', '1', '0.0.0.0', '1452950409');
+INSERT INTO `pcms_log` VALUES ('1936', 'columns', '/admin/index.php/columns/edit/21', 'update', '更新数据id:21', '1', '0.0.0.0', '1452950662');
+INSERT INTO `pcms_log` VALUES ('1937', 'cases', '/admin/index.php/cases/audit?c=22', 'audit', '审核数据ID：3为1', '1', '0.0.0.0', '1452951433');
+INSERT INTO `pcms_log` VALUES ('1938', 'cases', '/admin/index.php/cases/audit?c=23', 'audit', '审核数据ID：4为1', '1', '0.0.0.0', '1452951436');
+INSERT INTO `pcms_log` VALUES ('1939', 'cases', '/admin/index.php/cases/audit?c=24', 'audit', '审核数据ID：5为1', '1', '0.0.0.0', '1452951439');
 
 -- ----------------------------
 -- Table structure for pcms_manager
@@ -413,7 +599,7 @@ CREATE TABLE `pcms_manager` (
 -- ----------------------------
 -- Records of pcms_manager
 -- ----------------------------
-INSERT INTO `pcms_manager` VALUES ('1', 'admin', '超级用户', 'ed01a71f99b2d1bb54201d0be5d01889', '1', '123@abc.com', '', '', '', '1', '0', '0', '0.0.0.0', '1376471117', '1452596842', '1', '1389317880');
+INSERT INTO `pcms_manager` VALUES ('1', 'admin', '超级用户', 'ed01a71f99b2d1bb54201d0be5d01889', '1', '123@abc.com', '', '', '', '1', '0', '0', '0.0.0.0', '1376471117', '1452949911', '1', '1389317880');
 
 -- ----------------------------
 -- Table structure for pcms_manager_group
@@ -447,7 +633,7 @@ CREATE TABLE `pcms_manager_purview` (
   `title` varchar(50) NOT NULL COMMENT '权限名称',
   `status` int(1) NOT NULL DEFAULT '0' COMMENT '是否使用权限',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=utf8 COMMENT='用户组权限';
+) ENGINE=MyISAM AUTO_INCREMENT=140 DEFAULT CHARSET=utf8 COMMENT='用户组权限';
 
 -- ----------------------------
 -- Records of pcms_manager_purview
@@ -471,6 +657,126 @@ INSERT INTO `pcms_manager_purview` VALUES ('16', 'manager_group', 'create', '', 
 INSERT INTO `pcms_manager_purview` VALUES ('17', 'manager_group', 'edit', '', 'a2756c433a39a2319e61bcd68a758265', '用户组修改', '1');
 INSERT INTO `pcms_manager_purview` VALUES ('18', 'manager_group', 'delete', '', '7d5101dc315695e13463ffdf708b5865', '用户组删除', '1');
 INSERT INTO `pcms_manager_purview` VALUES ('19', 'upload', 'uploado', '', '3345e3e48188396dc21242fb119ba6b1', '上传', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('20', 'page', 'index', '30', 'e0fd975319c874c5f02f802b3201949b', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('21', 'page', 'create', '30', '29d0934ab8155adbbd6b94df4bac3ea5', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('22', 'page', 'edit', '30', '7c6f9430eb960f52be2eb420645bdcc1', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('23', 'page', 'delete', '30', '16bacb294eeaa66b0e326abd2fdb7910', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('24', 'page', 'audit', '30', 'a6ee4e3e7f6e8f858b3ad8b34071bbb8', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('25', 'page', 'index', '31', '42addba1d5649b3bc02dfebfe5833622', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('26', 'page', 'create', '31', '6370b2e913e91163efa997f10fed6b0c', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('27', 'page', 'edit', '31', 'f96f8e3599fd3be147af77f0f638d166', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('28', 'page', 'delete', '31', '5a8c2356ee4f7cf22b9d8a94458dbce0', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('29', 'page', 'audit', '31', '615e298980da384bea6e6d7aac0f8131', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('30', 'page', 'index', '3', '55acb12787c11520dec043dae8c8f43f', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('31', 'page', 'create', '3', '490514ccb844f6e19cf1e39ec45afcaa', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('32', 'page', 'edit', '3', '5daec0d7a291ab828abfa1d9b882f815', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('33', 'page', 'delete', '3', '6a82e24b3151695d12859f8705b6648b', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('34', 'page', 'audit', '3', 'e446e83c5ae6a000babf73abeab863e2', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('35', 'page', 'index', '4', 'b5f7325d8050bc6a843cecf9099cd041', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('36', 'page', 'create', '4', '4a5167b65c95a4941958db1e6a19d8e8', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('37', 'page', 'edit', '4', '5dbd86b675208156fd7b4b2af4034e7c', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('38', 'page', 'delete', '4', '52049a819f5d87313473f26dc923bf4d', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('39', 'page', 'audit', '4', '8cd304eb9ffad25bc1d48ef771af0572', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('40', 'page', 'index', '5', 'de1e78874b11fd301c52907f65716491', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('41', 'page', 'create', '5', 'f6b8687e6ce63122b566f9fa3f6ac159', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('42', 'page', 'edit', '5', 'f03bed106b7b007eeb8ccbbf23626600', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('43', 'page', 'delete', '5', '8e2a937ecea85f468bc7821b3b5c2fd9', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('44', 'page', 'audit', '5', '6dbebe685fc6a70124bbc26955aaa587', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('45', 'page', 'index', '6', '33181661fd48e7188312c970742778f9', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('46', 'page', 'create', '6', 'd2982454f3a7346378e68debfd418fa1', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('47', 'page', 'edit', '6', 'ad74701ba151e59e2268082429c4b25d', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('48', 'page', 'delete', '6', 'a540d6c5b3011ecb8560b81cee19f6c9', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('49', 'page', 'audit', '6', 'b83f163a799c04800e0a8d19f320fe02', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('50', 'page', 'index', '7', '7882e0b46d58b78d70bee525b2404cb8', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('51', 'page', 'create', '7', '6f767735a4bb03e2dde41f2f81984b18', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('52', 'page', 'edit', '7', '9041544f46b0f9e0c861c986e5eb563f', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('53', 'page', 'delete', '7', '2383aecac653eb271fca9de8637fc7f5', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('54', 'page', 'audit', '7', '58b7e1346b741399a048d3a032a72002', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('55', 'page', 'index', '8', '0eb080f0966334408324a472c86a15a8', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('56', 'page', 'create', '8', '3c80b5b566591947b0d98eb8899acfd1', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('57', 'page', 'edit', '8', '1c1bcb503d17b64f64b4f657b54ca771', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('58', 'page', 'delete', '8', '12b11a534786b5bb62cf981590568161', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('59', 'page', 'audit', '8', '9ab71ef74279d9ff78d6742479fbe4bc', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('60', 'page', 'index', '9', '990e41112666107e73a78d12837a0784', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('61', 'page', 'create', '9', 'e9bb9f5f467c9c6cad391d01846816b6', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('62', 'page', 'edit', '9', '943b4eeee1342f15ba8b248cba2107a9', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('63', 'page', 'delete', '9', 'cc36a50d311c388686523c2241b1dcc3', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('64', 'page', 'audit', '9', '61263b76b3524fc43f743f2213ef7c1a', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('65', 'gallery', 'index', '10', '7f2d378deee1fabfdb0f2ebd97bab081', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('66', 'gallery', 'create', '10', '1a4252dcef8369844e83f91d68f20425', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('67', 'gallery', 'edit', '10', 'cda1aa87d717d411e263b8e3cb4e35de', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('68', 'gallery', 'delete', '10', 'd1f055cea5f91266ad6d7a5fbfaadc2f', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('69', 'gallery', 'audit', '10', '813d700088d0ad25ee4d4913cec3eb2b', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('70', 'page', 'index', '11', '212bba667fed2abe55879b401c5dbe71', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('71', 'page', 'create', '11', 'f9bdfa2ff193158875878e109eb0348f', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('72', 'page', 'edit', '11', 'baa7b2832654509184731a3ee4213538', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('73', 'page', 'delete', '11', '4971a6412a40e0245486754a89772848', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('74', 'page', 'audit', '11', 'e293c90412dd18174755bdbe24659408', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('75', 'links', 'index', '12', '47403e5600a782bca793c7ed2e088cdc', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('76', 'links', 'create', '12', '46abef163a89d173c91a6f541fe7da11', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('77', 'links', 'edit', '12', 'f866443ba073a8e6c1389b7f0fc8d8bd', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('78', 'links', 'delete', '12', '3f1ae82ea3049ebd146fe83c74732b9a', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('79', 'links', 'audit', '12', 'c17650e5017646ad8d61f6e2ed539634', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('80', 'page', 'index', '13', 'ea5190e00daaf150cee6e60fd42d091a', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('81', 'page', 'create', '13', 'fc51ee3f845d7a86a0b010d3335ee599', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('82', 'page', 'edit', '13', '3a3b07340003e746fd5f55b2b53ea2f7', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('83', 'page', 'delete', '13', '96d3fcec7b02d1fb50672a898cb0893a', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('84', 'page', 'audit', '13', 'ffe3207424bd264caae11b2635345d2f', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('85', 'page', 'index', '14', 'ca4ceaa95f32895416376c542b53da4b', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('86', 'page', 'create', '14', 'dbe0112a3196932179c1029e62b86181', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('87', 'page', 'edit', '14', 'c92fa4280ebaaf17dbf97f006ae9c6cf', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('88', 'page', 'delete', '14', '563f9e7659be19c40e4696fe82806db0', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('89', 'page', 'audit', '14', 'cc080f52fef2112da7cdae00c0e2c7a9', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('90', 'page', 'index', '15', '67adcdc9ecc0c7e2fad25e987e81d558', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('91', 'page', 'create', '15', 'ac22efd6ba8f2d66cb8990ad41fdacf4', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('92', 'page', 'edit', '15', '7ce524190dbb655344469d9d1abd9675', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('93', 'page', 'delete', '15', 'd7fcfe13c101843bc1dc6327627cad9a', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('94', 'page', 'audit', '15', 'dcddf4f770879571e9a9dddeef238eb8', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('95', 'page', 'index', '16', 'bb33396496707b6764bc6a2e8bc129b6', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('96', 'page', 'create', '16', '442faf8b2c624250d04ba973e9b75448', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('97', 'page', 'edit', '16', '276c1d14a55341e78ce4446029417eac', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('98', 'page', 'delete', '16', '4446d8754242262c0bc260b36e4f3dc8', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('99', 'page', 'audit', '16', 'a2e6ff8d1742da77c14e5710e0bba897', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('100', 'page', 'index', '17', 'b313940ce4a99f0e84f170aec00a8212', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('101', 'page', 'create', '17', 'a0868c5b6851e063578dff5e29dfe18b', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('102', 'page', 'edit', '17', '636cf9faf1efae8e61b6ccec214b2ba3', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('103', 'page', 'delete', '17', '08deb3c2d5874bb143d259f63c4a4678', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('104', 'page', 'audit', '17', '63afda6fb8aa2b34849528b5481aecc9', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('105', 'article', 'index', '18', '6f4edb2397be1237d707a6cd2b27bffc', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('106', 'article', 'create', '18', '227e49a702128aae361daba83ce78bc3', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('107', 'article', 'edit', '18', '26df256ae9aa43f8cbd6b1fd6ff084ba', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('108', 'article', 'delete', '18', 'b67cc1bddbd1f379779ddc90c99f973d', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('109', 'article', 'audit', '18', '95e6adc33259afa7483d55e72467356c', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('110', 'article', 'index', '19', 'f078393dd779410658fbe0f7844929cd', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('111', 'article', 'create', '19', '4e4e93f51c4b8c4d3070057490b3dde0', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('112', 'article', 'edit', '19', '42fdd119e8a5c4e5cc66ba859410bb37', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('113', 'article', 'delete', '19', '40f9b06450a031de06b3945588de81a1', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('114', 'article', 'audit', '19', 'a855d52379405cd22ae1fa58a2af9419', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('115', 'article', 'index', '20', 'feebd09276ffe68595d6bd5ef9721e78', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('116', 'article', 'create', '20', '734ea6d32c4be3faae40c610afb72a35', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('117', 'article', 'edit', '20', '7e2fafc5f016e76bdeabf5015b8f0085', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('118', 'article', 'delete', '20', '67aed65a0546f4d8adc1cd59def43363', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('119', 'article', 'audit', '20', 'f284672f16eb9c4630eef3f95b71bc01', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('120', 'lists', 'index', '21', '9c84a5a5e6393e3c27e30ef0729f6faf', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('121', 'lists', 'create', '21', '70a4348190f36f53982598845d9576f0', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('122', 'lists', 'edit', '21', '67a547ce07bf55a3d58e9c3e275fbae1', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('123', 'lists', 'delete', '21', '6fca9d791d148d376346036707d60161', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('124', 'lists', 'audit', '21', 'f05a4893be5f694af13463bf360eb275', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('125', 'lists', 'index', '22', 'a62418f6513b900c6a7c892d68df8651', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('126', 'lists', 'create', '22', '380b7a39aaa2626b64bd8389365774f4', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('127', 'lists', 'edit', '22', '0d7427572445df38353637294176b9e0', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('128', 'lists', 'delete', '22', '610afa0281f3c09140cc4e972c44bb43', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('129', 'lists', 'audit', '22', 'c76883bcc67d2723de1a74b8dc11de43', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('130', 'lists', 'index', '23', '0afcd03a20b8835aa6110822f5d22ce5', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('131', 'lists', 'create', '23', '604dfaa2332b5a2934e2eb5fac71e169', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('132', 'lists', 'edit', '23', 'a51199dc3e64370ca761576739325821', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('133', 'lists', 'delete', '23', 'f59c8813db844fa0635fc4c28b86dd3f', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('134', 'lists', 'audit', '23', 'b8afcdef65c89087a8cdaba4f6a21c3b', '审核', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('135', 'lists', 'index', '24', 'ae57e27447efdc78de3f0ab250b1d8eb', '查看', '0');
+INSERT INTO `pcms_manager_purview` VALUES ('136', 'lists', 'create', '24', '8b5ccf176006b1a87dfd2dbd8ab943dd', '创建', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('137', 'lists', 'edit', '24', '4f2a23337d9901cf13d62a6cfe26244b', '编辑', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('138', 'lists', 'delete', '24', '1ee79269747d41295a4559af0326ee63', '删除', '1');
+INSERT INTO `pcms_manager_purview` VALUES ('139', 'lists', 'audit', '24', 'fa6964fbeb838d5b34ed0770de382eff', '审核', '1');
 
 -- ----------------------------
 -- Table structure for pcms_modules
@@ -482,20 +788,19 @@ CREATE TABLE `pcms_modules` (
   `title` varchar(50) NOT NULL COMMENT '显示名称',
   `controller` varchar(50) NOT NULL COMMENT '控制器名称',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8 COMMENT='栏目模型';
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COMMENT='栏目模型';
 
 -- ----------------------------
 -- Records of pcms_modules
 -- ----------------------------
-INSERT INTO `pcms_modules` VALUES ('1', '0', '链接', 'links');
-INSERT INTO `pcms_modules` VALUES ('3', '0', '文章', 'article');
-INSERT INTO `pcms_modules` VALUES ('6', '0', '清单', 'lists');
-INSERT INTO `pcms_modules` VALUES ('7', '3', '期刊', 'gallery');
-INSERT INTO `pcms_modules` VALUES ('8', '1', '单页', 'page');
-INSERT INTO `pcms_modules` VALUES ('9', '4', '产品', 'product');
-INSERT INTO `pcms_modules` VALUES ('10', '0', '招聘', 'recruit');
-INSERT INTO `pcms_modules` VALUES ('11', '5', '联系我们', 'store');
-INSERT INTO `pcms_modules` VALUES ('12', '6', '管理团队', 'team');
+INSERT INTO `pcms_modules` VALUES ('4', '4', '链接', 'links');
+INSERT INTO `pcms_modules` VALUES ('2', '7', '文章', 'article');
+INSERT INTO `pcms_modules` VALUES ('3', '5', '清单', 'lists');
+INSERT INTO `pcms_modules` VALUES ('5', '3', '期刊', 'gallery');
+INSERT INTO `pcms_modules` VALUES ('1', '8', '单页', 'page');
+INSERT INTO `pcms_modules` VALUES ('6', '2', '招聘', 'recruit');
+INSERT INTO `pcms_modules` VALUES ('7', '1', '联系我们', 'store');
+INSERT INTO `pcms_modules` VALUES ('8', '6', '案例', 'cases');
 
 -- ----------------------------
 -- Table structure for pcms_msgs
@@ -539,11 +844,26 @@ CREATE TABLE `pcms_page` (
   `timeline` int(10) DEFAULT NULL COMMENT '发布/修改时间',
   `attachment` tinytext COMMENT '附件',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COMMENT='单页表';
+) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=utf8 COMMENT='单页表';
 
 -- ----------------------------
 -- Records of pcms_page
 -- ----------------------------
+INSERT INTO `pcms_page` VALUES ('11', '8', '0', '1', '0', null, null, null, null, null, null, null, null, '1452599841', null);
+INSERT INTO `pcms_page` VALUES ('12', '1', '0', '2', '0', null, null, null, null, null, null, null, null, '1452599843', null);
+INSERT INTO `pcms_page` VALUES ('13', '2', '0', '3', '0', null, '', '', '', null, '', '', null, '1452599844', null);
+INSERT INTO `pcms_page` VALUES ('14', '3', '0', '4', '0', null, null, null, null, null, null, null, null, '1452599845', null);
+INSERT INTO `pcms_page` VALUES ('15', '4', '0', '5', '0', null, null, null, null, null, null, null, null, '1452599847', null);
+INSERT INTO `pcms_page` VALUES ('16', '9', '0', '6', '0', null, null, null, null, null, null, null, null, '1452599849', null);
+INSERT INTO `pcms_page` VALUES ('17', '5', '0', '7', '0', null, null, null, null, null, null, null, null, '1452602854', null);
+INSERT INTO `pcms_page` VALUES ('18', '6', '0', '8', '0', null, null, null, null, null, null, null, null, '1452602855', null);
+INSERT INTO `pcms_page` VALUES ('19', '7', '0', '9', '0', null, null, null, null, null, null, null, null, '1452602856', null);
+INSERT INTO `pcms_page` VALUES ('20', '11', '0', '10', '0', '联系方式', '', '', '', '<p>地址：时代广场1号楼A座1008室<br/></p><p></p><p>电话：0871-55667788<br/></p><p>联系人：冯先生 13833338888<br/></p><p>邮箱：mail@163.com</p>', '', '', null, '1452672703', null);
+INSERT INTO `pcms_page` VALUES ('25', '17', '0', '15', '0', '关于我们', '', '', '', '<p>关于我们</p>', null, null, null, '1452752889', null);
+INSERT INTO `pcms_page` VALUES ('21', '13', '0', '11', '0', '公司简介', null, null, null, '<p>装饰工程有限公司成立于2006年，于2011年增加注册资本金为600万元，是一家专业从事公共空间设计与施工的企业，本企业系国家建设部颁发的建筑装饰装修工程设计与施工一体化贰级资质；河南省建设厅建筑装饰协会理事单位；ISO9001质量、环境、职业健康安全管理体系认证通过企业。</p><p><br/></p><p> 装饰为您提供企业整体解决方案，包括工程设计，装修施工、消防设计申报及工程、弱电安防空调机电工程、价值分析及成本估算、工程施工管理、企业VI标识系统设计及制作、产品推广及工业设计、人员招聘及岗前培训、办公家具及产品展柜定做、软装配饰等，致力于成为中国企业办公服务行业领导者。</p><p><br/></p><p> 企业目前拥有高级职称3人、中级职称6人、管理人员15人、各类工程技术人员20余人、各类中高级设计人员18人。目前，企业机构健全、机制灵活、设施齐全、内抓管理外树形象，能在较短的时间内完成一流的室内外装饰装修工程。</p><p><br/></p><p> 工程质量优良率占工程量的85%以上，工程质量合格率100%，各项技术指标都达到了合格以上标准，无发现一例质量安全及伤亡事故，多次获得省市级优质工程奖，连续3年获得河南省装饰装修行业先进企业称号，受到了上级主管部门和建设单位的一致好评，这些装修装饰工程的完成不仅取得良好的社会信誉，树立了企业形象，而且提高了企业的知名度，为企业发展奠定了更坚实的基础。</p><p><br/></p><p> 企业理念：培养一流企业团队，形成稳健企业作风，为客户提供专业、专人、专职的服务与支持，随时准备解决任何有关工程与设计服务的各种问题，与客户建立一种亲密的战略合作关系，公司以“以诚为本、以信立业”的经营理念，实现与客户朋友共同成长的目标。</p><p><br/></p><p> 只有客户的成功，我们才能成功。我们将以专业的精神、专业的技能、优质的服务为客户打造高品质的作品，努力争创一个令行业竞争对手尊敬的公司，客户青睐和首选的公司，员工值得依托、能够实现自我价值，为之而奋斗的家园。</p><p><br/></p><p> 企业目标：为客户提供一站式服务解决方案！全力打造中国公共空间设计与施工第一品牌！</p><p></p>', null, null, null, '1452752641', null);
+INSERT INTO `pcms_page` VALUES ('22', '14', '0', '12', '0', '经营理念', '', '', '', '<p>经营理念经营理念经营理念经营理念经营理念经营理念经营理念经营理念经营理念经营理念经营理念经营理念经营理念</p>', '', '', null, '1452752647', null);
+INSERT INTO `pcms_page` VALUES ('23', '15', '0', '13', '0', '企业锋芒', '', '', '', '<p>企业锋芒企业锋芒企业锋芒企业锋芒企业锋芒企业锋芒企业锋芒企业锋芒企业锋芒企业锋芒企业锋芒企业锋芒企业锋芒</p>', '', '', null, '1452752649', null);
+INSERT INTO `pcms_page` VALUES ('24', '16', '0', '14', '0', '公司文化', '', '', '', '<p>公司文化公司文化公司文化公司文化公司文化公司文化公司文化公司文化公司文化公司文化公司文化公司文化公司文化公司文化公司文化</p>', '', '', null, '1452752651', null);
 
 -- ----------------------------
 -- Table structure for pcms_province
@@ -1125,8 +1445,8 @@ CREATE TABLE `pcms_sessions_adminer` (
 -- ----------------------------
 -- Records of pcms_sessions_adminer
 -- ----------------------------
-INSERT INTO `pcms_sessions_adminer` VALUES ('11b490af5f5628584936ea2509208921', '::1', 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko', '1452596686', 'a:6:{s:9:\"user_data\";s:0:\"\";s:3:\"mid\";s:1:\"1\";s:5:\"uname\";s:8:\"bocadmin\";s:8:\"nickname\";s:12:\"超级用户\";s:8:\"login_ip\";s:7:\"0.0.0.0\";s:3:\"gid\";s:1:\"1\";}');
-INSERT INTO `pcms_sessions_adminer` VALUES ('f8fd7fe79926327d0eab52b92acefd6d', '::1', 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko', '1452596819', 'a:6:{s:9:\"user_data\";s:0:\"\";s:3:\"mid\";s:1:\"1\";s:5:\"uname\";s:5:\"admin\";s:8:\"nickname\";s:12:\"超级用户\";s:8:\"login_ip\";s:7:\"0.0.0.0\";s:3:\"gid\";s:1:\"1\";}');
+INSERT INTO `pcms_sessions_adminer` VALUES ('cc00e37f7cbe1287d4395a15f2e28574', '::1', 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko', '1452949899', 'a:6:{s:9:\"user_data\";s:0:\"\";s:3:\"mid\";s:1:\"1\";s:5:\"uname\";s:5:\"admin\";s:8:\"nickname\";s:12:\"超级用户\";s:8:\"login_ip\";s:7:\"0.0.0.0\";s:3:\"gid\";s:1:\"1\";}');
+INSERT INTO `pcms_sessions_adminer` VALUES ('733fe3565928e43a17dbd65511d3d281', '::1', 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko', '1452951427', 'a:6:{s:9:\"user_data\";s:0:\"\";s:3:\"mid\";s:1:\"1\";s:5:\"uname\";s:5:\"admin\";s:8:\"nickname\";s:12:\"超级用户\";s:8:\"login_ip\";s:7:\"0.0.0.0\";s:3:\"gid\";s:1:\"1\";}');
 
 -- ----------------------------
 -- Table structure for pcms_sessions_site
@@ -1234,11 +1554,41 @@ CREATE TABLE `pcms_upload` (
   `text` tinytext COMMENT '简介内容',
   `timeline` int(11) DEFAULT NULL COMMENT '时间线',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=337 DEFAULT CHARSET=utf8 COMMENT='文件上传';
+) ENGINE=MyISAM AUTO_INCREMENT=375 DEFAULT CHARSET=utf8 COMMENT='文件上传';
 
 -- ----------------------------
 -- Records of pcms_upload
 -- ----------------------------
+INSERT INTO `pcms_upload` VALUES ('337', '14526031875067l1xy1.jpg', '473884', 'image/jpeg', '2016/01/12/14526031875067l1xy1.jpg', '2016/01/12/thumbnail/14526031875067l1xy1.jpg', '?file=14526031875067l1xy1.jpg&dt=2016/01/12', null, null, null, '1452603187');
+INSERT INTO `pcms_upload` VALUES ('338', '14526032022408o5tec.jpg', '214408', 'image/jpeg', '2016/01/12/14526032022408o5tec.jpg', '2016/01/12/thumbnail/14526032022408o5tec.jpg', '?file=14526032022408o5tec.jpg&dt=2016/01/12', null, null, null, '1452603202');
+INSERT INTO `pcms_upload` VALUES ('339', '1452603220451epokq.jpg', '214408', 'image/jpeg', '2016/01/12/1452603220451epokq.jpg', '2016/01/12/thumbnail/1452603220451epokq.jpg', '?file=1452603220451epokq.jpg&dt=2016/01/12', null, null, null, '1452603220');
+INSERT INTO `pcms_upload` VALUES ('340', '1452603241851qnjf5.jpg', '214408', 'image/jpeg', '2016/01/12/1452603241851qnjf5.jpg', '2016/01/12/thumbnail/1452603241851qnjf5.jpg', '?file=1452603241851qnjf5.jpg&dt=2016/01/12', null, null, null, '1452603241');
+INSERT INTO `pcms_upload` VALUES ('341', '14526032551314mafbs.jpg', '214408', 'image/jpeg', '2016/01/12/14526032551314mafbs.jpg', '2016/01/12/thumbnail/14526032551314mafbs.jpg', '?file=14526032551314mafbs.jpg&dt=2016/01/12', null, null, null, '1452603255');
+INSERT INTO `pcms_upload` VALUES ('342', '14526032733806cuah5.jpg', '149445', 'image/jpeg', '2016/01/12/14526032733806cuah5.jpg', '2016/01/12/thumbnail/14526032733806cuah5.jpg', '?file=14526032733806cuah5.jpg&dt=2016/01/12', null, null, null, '1452603273');
+INSERT INTO `pcms_upload` VALUES ('343', '14526033095307rw1sw.jpg', '214408', 'image/jpeg', '2016/01/12/14526033095307rw1sw.jpg', '2016/01/12/thumbnail/14526033095307rw1sw.jpg', '?file=14526033095307rw1sw.jpg&dt=2016/01/12', null, null, null, '1452603309');
+INSERT INTO `pcms_upload` VALUES ('345', '1452925400711l7sln.jpg', '27831', 'image/jpeg', '2016/01/16/1452925400711l7sln.jpg', '2016/01/16/thumbnail/1452925400711l7sln.jpg', '?file=1452925400711l7sln.jpg&dt=2016/01/16', null, null, null, '1452925400');
+INSERT INTO `pcms_upload` VALUES ('346', '145292541372399dpxl.jpg', '27831', 'image/jpeg', '2016/01/16/145292541372399dpxl.jpg', '2016/01/16/thumbnail/145292541372399dpxl.jpg', '?file=145292541372399dpxl.jpg&dt=2016/01/16', null, null, null, '1452925413');
+INSERT INTO `pcms_upload` VALUES ('356', '145293867712404ymr.jpg', '9754', 'image/jpeg', '2016/01/16/145293867712404ymr.jpg', '2016/01/16/thumbnail/145293867712404ymr.jpg', '?file=145293867712404ymr.jpg&dt=2016/01/16', null, null, null, '1452938677');
+INSERT INTO `pcms_upload` VALUES ('355', '14529386279288pebed.jpg', '401549', 'image/jpeg', '2016/01/16/14529386279288pebed.jpg', '2016/01/16/thumbnail/14529386279288pebed.jpg', '?file=14529386279288pebed.jpg&dt=2016/01/16', null, null, null, '1452938628');
+INSERT INTO `pcms_upload` VALUES ('350', '145292603836968s5n4.jpg', '559806', 'image/jpeg', '2016/01/16/145292603836968s5n4.jpg', '2016/01/16/thumbnail/145292603836968s5n4.jpg', '?file=145292603836968s5n4.jpg&dt=2016/01/16', null, null, null, '1452926038');
+INSERT INTO `pcms_upload` VALUES ('353', '14529268229936zmf3y.jpg', '281939', 'image/jpeg', '2016/01/16/14529268229936zmf3y.jpg', '2016/01/16/thumbnail/14529268229936zmf3y.jpg', '?file=14529268229936zmf3y.jpg&dt=2016/01/16', null, null, null, '1452926823');
+INSERT INTO `pcms_upload` VALUES ('352', '14529261856319ki2l6.jpg', '241959', 'image/jpeg', '2016/01/16/14529261856319ki2l6.jpg', '2016/01/16/thumbnail/14529261856319ki2l6.jpg', '?file=14529261856319ki2l6.jpg&dt=2016/01/16', null, null, null, '1452926185');
+INSERT INTO `pcms_upload` VALUES ('354', '145292686107711354r.jpg', '121443', 'image/jpeg', '2016/01/16/145292686107711354r.jpg', '2016/01/16/thumbnail/145292686107711354r.jpg', '?file=145292686107711354r.jpg&dt=2016/01/16', null, null, null, '1452926861');
+INSERT INTO `pcms_upload` VALUES ('357', '14529387854411bc6kz.jpg', '211842', 'image/jpeg', '2016/01/16/14529387854411bc6kz.jpg', '2016/01/16/thumbnail/14529387854411bc6kz.jpg', '?file=14529387854411bc6kz.jpg&dt=2016/01/16', null, null, null, '1452938785');
+INSERT INTO `pcms_upload` VALUES ('360', '14529388595102kgnbu.jpg', '140786', 'image/jpeg', '2016/01/16/14529388595102kgnbu.jpg', '2016/01/16/thumbnail/14529388595102kgnbu.jpg', '?file=14529388595102kgnbu.jpg&dt=2016/01/16', null, null, null, '1452938859');
+INSERT INTO `pcms_upload` VALUES ('359', '14529388299734d7ue7.jpg', '64062', 'image/jpeg', '2016/01/16/14529388299734d7ue7.jpg', '2016/01/16/thumbnail/14529388299734d7ue7.jpg', '?file=14529388299734d7ue7.jpg&dt=2016/01/16', null, null, null, '1452938830');
+INSERT INTO `pcms_upload` VALUES ('361', '14529389038349nbb52.jpg', '412184', 'image/jpeg', '2016/01/16/14529389038349nbb52.jpg', '2016/01/16/thumbnail/14529389038349nbb52.jpg', '?file=14529389038349nbb52.jpg&dt=2016/01/16', null, null, null, '1452938904');
+INSERT INTO `pcms_upload` VALUES ('364', '14529390358004wxcns.jpg', '48235', 'image/jpeg', '2016/01/16/14529390358004wxcns.jpg', '2016/01/16/thumbnail/14529390358004wxcns.jpg', '?file=14529390358004wxcns.jpg&dt=2016/01/16', null, null, null, '1452939035');
+INSERT INTO `pcms_upload` VALUES ('363', '1452938968487325uur.jpg', '179847', 'image/jpeg', '2016/01/16/1452938968487325uur.jpg', '2016/01/16/thumbnail/1452938968487325uur.jpg', '?file=1452938968487325uur.jpg&dt=2016/01/16', null, null, null, '1452938968');
+INSERT INTO `pcms_upload` VALUES ('365', '14529390839886so0qs.jpg', '40987', 'image/jpeg', '2016/01/16/14529390839886so0qs.jpg', '2016/01/16/thumbnail/14529390839886so0qs.jpg', '?file=14529390839886so0qs.jpg&dt=2016/01/16', null, null, null, '1452939084');
+INSERT INTO `pcms_upload` VALUES ('366', '14529394605445kh9iw.jpg', '331828', 'image/jpeg', '2016/01/16/14529394605445kh9iw.jpg', '2016/01/16/thumbnail/14529394605445kh9iw.jpg', '?file=14529394605445kh9iw.jpg&dt=2016/01/16', null, null, null, '1452939460');
+INSERT INTO `pcms_upload` VALUES ('367', '145293954080793fonv.jpg', '436924', 'image/jpeg', '2016/01/16/145293954080793fonv.jpg', '2016/01/16/thumbnail/145293954080793fonv.jpg', '?file=145293954080793fonv.jpg&dt=2016/01/16', null, null, null, '1452939540');
+INSERT INTO `pcms_upload` VALUES ('368', '14529488775218lpk32.jpg', '79661', 'image/jpeg', '2016/01/16/14529488775218lpk32.jpg', '2016/01/16/thumbnail/14529488775218lpk32.jpg', '?file=14529488775218lpk32.jpg&dt=2016/01/16', null, null, null, '1452948877');
+INSERT INTO `pcms_upload` VALUES ('370', '145294983441451ll7s.jpg', '78056', 'image/jpeg', '2016/01/16/145294983441451ll7s.jpg', '2016/01/16/thumbnail/145294983441451ll7s.jpg', '?file=145294983441451ll7s.jpg&dt=2016/01/16', null, null, null, '1452949834');
+INSERT INTO `pcms_upload` VALUES ('371', '14529498808113je95f.jpg', '57026', 'image/jpeg', '2016/01/16/14529498808113je95f.jpg', '2016/01/16/thumbnail/14529498808113je95f.jpg', '?file=14529498808113je95f.jpg&dt=2016/01/16', null, null, null, '1452949880');
+INSERT INTO `pcms_upload` VALUES ('372', '14529499479518c6ryg.jpg', '57026', 'image/jpeg', '2016/01/16/14529499479518c6ryg.jpg', '2016/01/16/thumbnail/14529499479518c6ryg.jpg', '?file=14529499479518c6ryg.jpg&dt=2016/01/16', null, null, null, '1452949947');
+INSERT INTO `pcms_upload` VALUES ('373', '14529501375177kad71.jpg', '39868', 'image/jpeg', '2016/01/16/14529501375177kad71.jpg', '2016/01/16/thumbnail/14529501375177kad71.jpg', '?file=14529501375177kad71.jpg&dt=2016/01/16', null, null, null, '1452950137');
+INSERT INTO `pcms_upload` VALUES ('374', '14529501719361kf4df.jpg', '36348', 'image/jpeg', '2016/01/16/14529501719361kf4df.jpg', '2016/01/16/thumbnail/14529501719361kf4df.jpg', '?file=14529501719361kf4df.jpg&dt=2016/01/16', null, null, null, '1452950171');
 
 -- ----------------------------
 -- Table structure for pcms_video

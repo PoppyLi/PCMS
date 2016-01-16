@@ -7,7 +7,6 @@
 <title><?php echo $header['title']?></title>
 <meta name="description" content="<?php echo $header['intro']?>" />
 <meta name="keywords" content="<?php echo $header['tags']?>" />
-<link href="/static/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/static/web/css/style.css" />
 <script type="text/javascript" src="/static/js/jquery.min.js"></script>
 <script type="text/javascript" src="/static/web/js/metinfo_ui.js"></script>
