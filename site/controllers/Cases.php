@@ -20,5 +20,15 @@ class Cases extends MY_Controller {
 	 	$this->load->view('Cases',$vdata);
 	}
 
+	public function article($id = 0){
+	 	if(empty($id)) return false;
+
+	 	$vdata = array();
+	 	$vdata = $this->Comdata;
+	 	$where = array('id' => $id,'audit' => 1,'status' => 1);
+	 	$vdata['article'] = $this->cases->get_one_pn($where);
+	 	$this->cases->update(array('click' => $vdata['article']['click']+1),array('id' => $id));
+	 	$this->load->view('article',$vdata);
+	 }
 }
 
