@@ -20,9 +20,9 @@
         </div>
         <div class="xqtext">
           <div class="pn">
-              <p> <a href="<?php echo isset($article['prev_id'])?site_url('decoration/article/'.$article['prev_id']):"javascript:void(0);"; ?>">
+              <p> <a href="<?php echo isset($article['prev_id'])?site_url($this->uri->segment(1).'/article/'.$article['prev_id']):"javascript:void(0);"; ?>">
     上一篇： <?php echo isset($article['prev_id'])?$article['prev_title']:"无"; ?></a> </p>
-              <p> <a href="<?php echo isset($article['next_id'])?site_url('decoration/article/'.$article['next_id']):"javascript:void(0);"; ?>">
+              <p> <a href="<?php echo isset($article['next_id'])?site_url($this->uri->segment(1).'/article/'.$article['next_id']):"javascript:void(0);"; ?>">
     下一篇： <?php echo isset($article['next_id'])?$article['next_title']:"无"; ?></a></p>
           </div>
         </div>

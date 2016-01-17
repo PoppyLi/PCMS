@@ -4,15 +4,14 @@ class Service extends MY_Controller {
 	function __construct(){
         parent::__construct();
         
+        $this->Comdata['parent'] = get_columns_parent(5);
     }
 
-	 public function index()
-	 {
+	 public function index($cid = 25){
 	 	$vdata = array();
-	 	$vdata = $this->get_site();
-	 	
+	 	$vdata = $this->Comdata;
+	 	$vdata['content'] = $this->page->get_one(array('cid' => $cid));
 	 	$this->load->view('Service',$vdata);
 	 }
-
 }
 

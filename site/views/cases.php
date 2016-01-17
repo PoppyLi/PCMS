@@ -15,7 +15,7 @@
               <ul class='list-none metlist'>
                 <?php foreach($ari_list as $k => $v){?>
                 <li class="list"><a href="<?php echo site_url('Cases/article/'.$v['id'])?>" class="img"><img src="<?php echo UPLOAD_URL.tag_photo($v['photo']); ?>" alt="" width="200" height="150" /></a>
-                  <h3><a href="<?php echo site_url('Cases/article/'.$v['id'])?>"><?php echo strcut(strip_tags($v['title']),12); ?></a></h3>
+                  <h3><a href="<?php echo site_url('Cases/article/'.$v['id'])?>">【<?php echo one_ctype($v['ctype'])['title']?>】<?php echo strcut(strip_tags($v['title']),12); ?></a></h3>
                 </li>
                 <?php }?>
               </ul>
