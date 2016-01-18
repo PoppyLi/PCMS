@@ -45,6 +45,19 @@ class MY_Controller extends CI_Controller{
 		return $arr;
 	}
 
+	// 验证码表单验证方法
+	public function captchas_verify($str='')
+	{
+		$this->load->library('captcha');
+        if($this->captchas_verify = $this->captcha->verify($str)){
+            return true;
+        }else{
+            $this->form_validation->set_message('captchas_verify', '验证码输入错误');
+            return false;
+        }
+	}
+
+
 	/**
 	 * @brief 分页
 	 * @param $url string 输出地址

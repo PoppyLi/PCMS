@@ -11,28 +11,31 @@
       </div>
       
       <div class="sidebar-con-right-con">        
-        <div class="editor active" id="showtext">
-          <?php $this->load->view('form_errors');?>
+        <div class="editor active" id="showtext">          
         	<?php echo form_open(site_url('feedback'))?>
             <table class='feedback_table' >
               <tr>
-                <td class='text'>联系人</td>
-                <td class='input'><input name='username' type='text' size='30' class='input-text' /><span class='info'></span><span></span></td>
+                <td></td>
+                <td><?php echo validation_errors('<span style="color:#f00">', '</span>'); ?></td>
               </tr>
               <tr>
-                <td class='text'>电话</td>
+                <td class='text'>联系人：</td>
+                <td class='input'><input name='username' type='text' size='30' class='input-text' value="<?php echo set_value('username');?>" /><span class='info'>*</span></td>
+              </tr>
+              <tr>
+                <td class='text'>电话：</td>
                 <td class='input'><input name='tel' type='text' size='30' class='input-text' /><span class='info'></span><span></span></td>
               </tr>
               <tr>
-                <td class='text'>邮箱</td>
+                <td class='text'>邮箱：</td>
                 <td class='input'><input name='email' type='text' size='30' class='input-text' /><span class='info'></span><span></span></td>
               </tr>
               <tr>
-                <td class='text'>反馈内容</td>
-                <td class='input'><textarea name='content' class='textarea-text' cols='50' rows='5'></textarea><span class='info'>*</span><span> 请详细描述</span></td>
+                <td class='text'>反馈内容：</td>
+                <td class='input'><textarea name='content' class='textarea-text' cols='50' rows='5'><?php echo set_value('content');?></textarea><span class='info'>*</span></td>
               </tr>
               <tr>
-                <td class='text'>验证码</td>
+                <td class='text'>验证码：</td>
                 <td class='input'><input name="captchas" id="captchas" type='text' class='code' size='6' maxlength='8' style='width:50px' /><img src="<?php echo site_url('captchas?t='.time()); ?>" class="captchas" style="cursor:pointer"></td>
               </tr>
               <tr>  
