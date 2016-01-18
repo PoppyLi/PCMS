@@ -11,6 +11,11 @@
                         <a href="<?php echo site_url($parent[0]['identify'].'/index/'.$parent[$key]['id'])?>"><?php echo $parent[$key]['title'];?></a>
                     </li>
                 <?php }?>
+                <?php if($parent[0]['id'] == 34){?>
+                    <li>
+                        <a href="<?php echo site_url('feedback')?>">在线反馈</a>
+                    </li>
+                <?php }?>
             </ul>
             <div class="clear"></div>  
         </div>

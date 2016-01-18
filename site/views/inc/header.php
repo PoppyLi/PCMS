@@ -7,11 +7,20 @@
 <title><?php echo $header['title']?></title>
 <meta name="description" content="<?php echo $header['intro']?>" />
 <meta name="keywords" content="<?php echo $header['tags']?>" />
+<script type="text/javascript">
+    var STATIC_URL = "<?php echo STATIC_URL ?>";
+    var GLOBAL_URL = "<?php echo GLOBAL_URL ?>";
+    var UPLOAD_URL = "<?php echo UPLOAD_URL ?>" ;
+    var SITE_URL = "<?php echo site_url().'/'; ?>";
+</script>
 <link rel="stylesheet" type="text/css" href="/static/web/css/style.css" />
 <script type="text/javascript" src="/static/js/jquery.min.js"></script>
 <script type="text/javascript" src="/static/web/js/metinfo_ui.js"></script>
 <script type="text/javascript" src="/static/web/js/fun.inc.js"></script>
 <script type="text/javascript" src="/static/web/js/metinfo.js"></script>
+<script type="text/javascript" src="/static/js/site/init.js"></script>
+<script type="text/javascript" src="/static/js/tools.js"></script>
+
 <!--[if IE]>
 <script type="text/javascript" src="/static/web/js/html5.js"></script>
 <![endif]-->
@@ -41,7 +50,9 @@
                     <ul>
                         <?php foreach ($value['child'] as $k => $v) {?>
                             <li><a href="<?php echo site_url($list[$key]['identify'].'/index/'.$value['child'][$k]['id'])?>"><?php echo $value['child'][$k]['title']?></a></li>
-                        <?php }?>
+                        <?php if($value['child'][$k]['id']==34){?>
+                            <li><a href="<?php echo site_url('feedback')?>">在线反馈</a></li>
+                        <?php }}?>
                     </ul>
                 <?php } ?>
             </ul>
