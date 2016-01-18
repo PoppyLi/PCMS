@@ -74,3 +74,8 @@ ERROR - 2016-01-18 15:42:34 --> Could not find the language line "acount"
 ERROR - 2016-01-18 15:43:16 --> Could not find the language line "recruit"
 ERROR - 2016-01-18 15:43:18 --> 没有给出CID！
 ERROR - 2016-01-18 15:43:23 --> Could not find the language line "recruit"
+ERROR - 2016-01-18 18:59:22 --> Severity: Notice  --> Undefined variable: parent_path C:\wamp\www\PCMS\admin\views\columns_edit.php 111
+ERROR - 2016-01-18 18:59:22 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\wamp\www\PCMS\admin\views\columns_edit.php 111
+ERROR - 2016-01-18 19:05:10 --> Severity: Warning  --> fopen(C:\wamp\www\PCMS/logs/debug20160118.log): failed to open stream: No such file or directory C:\wamp\www\PCMS\libs\helpers\funs_helper.php 433
+ERROR - 2016-01-18 19:05:10 --> Severity: Warning  --> fwrite() expects parameter 1 to be resource, boolean given C:\wamp\www\PCMS\libs\helpers\funs_helper.php 437
+ERROR - 2016-01-18 19:05:10 --> Severity: Warning  --> fclose() expects parameter 1 to be resource, boolean given C:\wamp\www\PCMS\libs\helpers\funs_helper.php 438

@@ -10,7 +10,9 @@ class Recruit extends MY_Controller {
 	public function index($cid = 36){
 	 	$vdata = array();
 	 	$vdata = $this->Comdata;
-	 	$vdata['content'] = $this->page->get_one(array('cid' => $cid));
+
+	 	$this->load->model('recruit_model','rec');
+	 	$vdata['rec_list'] = $this->rec->get_all(array('cid' => $cid));
 	 	$this->load->view('Recruit',$vdata);
 	 }
 

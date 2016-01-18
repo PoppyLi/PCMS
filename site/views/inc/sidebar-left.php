@@ -15,6 +15,10 @@
                     <li>
                         <a href="<?php echo site_url('feedback')?>">在线反馈</a>
                     </li>
+                <?php }elseif ($parent[0]['id'] == 36) {?>
+                    <li>
+                        <a href="<?php echo site_url('recruit')?>">招贤纳士</a>
+                    </li>
                 <?php }?>
             </ul>
             <div class="clear"></div>  
