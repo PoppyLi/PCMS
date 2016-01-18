@@ -48,9 +48,9 @@ function cols_menu($cols = false){
         <i class="fa fa-globe" title="表单数据管理"></i> <span class="i-title">表单数据管理</span>        
     </li>
 
-    <li id='menu-acount'><a href="<?php echo site_url('acount') ?>"><i class="fa fa-comments-o" title="<?php echo lang('acount') ?>"></i> <span class="i-title"> 用户管理<?php echo lang('acount') ?> </span><div class="wp-menu-arrow"><div></div></div></a></li>
+    <li id='menu-recruit_apply'><a href="<?php echo site_url('recruit_apply') ?>"><i class="fa fa-comments-o" title="<?php echo lang('recruit_apply') ?>"></i> <span class="i-title"> 应聘管理</span><div class="wp-menu-arrow"><div></div></div></a></li>
 
-    <li id='menu-recruit_apply'><a href="<?php echo site_url('recruit_apply') ?>"><i class="fa fa-comments-o" title="<?php echo lang('recruit_apply') ?>"></i> <span class="i-title"> 项目提交</span><div class="wp-menu-arrow"><div></div></div></a></li>
+    <li id='menu-feedback'><a href="<?php echo site_url('feedback') ?>"><i class="fa fa-comments-o" title="<?php echo lang('feedback') ?>"></i> <span class="i-title"> 在线反馈</span><div class="wp-menu-arrow"><div></div></div></a></li>
 
 	<li class="nav-header" id='js-sidebar-cog' data-hide="1">
         <i class="fa fa-cogs" title="<?php echo lang('nav_cog') ?>"></i> <span class="i-title"><?php echo lang('nav_cog') ?></span>

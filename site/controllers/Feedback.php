@@ -11,8 +11,12 @@ class Feedback extends MY_Controller {
 	 public function index(){
 	 	$vdata = array();
 	 	$vdata = $this->Comdata;
+	 	$data = $this->input->post();
+	 	unset($data['captchas']);
+	 	unset($data['Submit']);
     	if($this->form_validation->run('feedback')) {
-			
+    		$this->load->model('feedback_model');
+			$this->feedback_model->create($data);
 			goto_message("感谢您的反馈，我们会尽快处理！",'feedback');
 		}
 	 	$this->load->view('Feedback',$vdata);
