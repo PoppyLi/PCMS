@@ -9,12 +9,12 @@
 			<thead>
 				<tr>
 					<th class="width-small"><input id='selectbox-all' type="checkbox" > </th>
-					<th>提交类型</th>
-					<th>项目申请人(公司)</th>
-					<th>项目类型</th>
+					<th>应聘职位</th>
+					<th>应聘姓名</th>
+					<th>出生年月</th>
+					<th>籍贯</th>
+					<th>学历</th>
 					<th>联系方式</th>
-					<th>邮箱</th>
-					<th>申请备注</th>
 					<th>提交时间</th>
 				</tr>
 			</thead>
@@ -23,13 +23,11 @@
 					<tr data-id="<?php echo $v['id'] ?>" data-sort="<?php echo $v['sort_id'] ?>">
 						<td><input class="select-it" type="checkbox" value="<?php echo $v['id']; ?>" ></td>
 					<td> <?php echo $v['position'] ?> </td>
-					<td> <?php echo $v['name'] ?> </td>
+					<td> <?php echo $v['username'] ?> </td>
+					<td> <?php echo $v['birthday'] ?> </td>
+					<td> <?php echo $v['birthplace'] ?> </td>					
 					<td> <?php echo $v['edu'] ?> </td>
-
-					<td> <?php echo $v['tel'] ?> </td>
-					
-					<td> <?php echo $v['email'] ?> </td>
-					<td> <?php echo $v['language'] ?> </td>
+					<td class="span3"> <?php echo $v['tel'] ?> </td>
 					<td> <?php echo  date("Y/m/d H:i:s",$v['timeline']); ?> </td>
 					<td style="text-align:right;">
 						<div class="btn-group">
@@ -48,7 +46,7 @@
 	<a id='select-all' class='btn' href="#"> <i class="fa fa-check-square-o"></i> <?php echo lang('select_all') ?> </a>
 	<a id='unselect-all' class='btn hide' href="#"> <i class="fa fa-square-o"></i> <?php echo lang('unselect') ?> </a>
 	<a id="btn-del" class='btn btn-danger' href="#"> <i class="fa fa-times"></i> <?php echo lang('del') ?> </a>
- 	<a class='btn' id="daochu" href="<?php echo site_url('recruit_apply/exl'); ?>">导出项目</a>
+ 	<a class='btn' id="daochu" href="<?php echo site_url('recruit_apply/exl'); ?>">导出</a>
 </div>
 
 <?php echo $pages; ?>

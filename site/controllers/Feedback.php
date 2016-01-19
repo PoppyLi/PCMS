@@ -14,6 +14,7 @@ class Feedback extends MY_Controller {
 	 	$data = $this->input->post();
 	 	unset($data['captchas']);
 	 	unset($data['Submit']);
+	 	$data['ip'] = $this->input->ip_address();
     	if($this->form_validation->run('feedback')) {
     		$this->load->model('feedback_model');
 			$this->feedback_model->create($data);

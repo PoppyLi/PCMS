@@ -14,7 +14,7 @@
           <?php foreach($rec_list as $v) {?>
             <div class="active" id="joblist">
 			       <dl class='list-none metlist'>
-              <dt><?php echo $v['title']?>   <span>招聘人数: <?php echo ($v['amount']==0)?'不限制':$v['amount'].'人';?></span><span>发布日期：<?php echo date('Y-m-d',$v['timeline'])?></span><a href="<?php echo site_url('recruit/apply/'.$v['id'])?>" style="float:right">在线应聘</a>  </dt>
+              <dt><?php echo $v['title']?>   <span>招聘人数: <?php echo ($v['amount']==0)?'不限制':$v['amount'].'人';?></span><span>发布日期：<?php echo date('Y-m-d',$v['timeline'])?></span><a href="<?php echo site_url('recruit/apply/'.$v['cid'].'/'.$v['id'])?>" style="float:right">在线应聘</a>  </dt>
               <dd class='list top'>
                 <div></div>
                 <div><strong> 详细说明 </strong></div>
