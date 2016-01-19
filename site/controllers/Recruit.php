@@ -16,5 +16,11 @@ class Recruit extends MY_Controller {
 	 	$this->load->view('Recruit',$vdata);
 	 }
 
+	 public function apply($id){
+	 	$vdata = array();
+	 	$vdata = $this->Comdata;
+
+	 	$this->load->view('Recruit_apply',$vdata);
+	 }
 }
 

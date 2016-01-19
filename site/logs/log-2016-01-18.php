@@ -780,3 +780,59 @@ ERROR - 2016-01-18 21:33:43 --> Language file contains no data: language/zh_CN/c
 ERROR - 2016-01-18 21:33:44 --> Language file contains no data: language/zh_CN/common_lang.php
 ERROR - 2016-01-18 21:33:44 --> Language file contains no data: language/zh_CN/common_lang.php
 ERROR - 2016-01-18 21:33:47 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:34:37 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:34:38 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:34:39 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:34:39 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\feedback.php 10
+ERROR - 2016-01-18 21:34:39 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\feedback.php 10
+ERROR - 2016-01-18 21:34:39 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:34:40 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:34:40 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:34:47 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:05 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:06 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:08 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:14 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:14 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:15 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:15 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:15 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\cases.php 10
+ERROR - 2016-01-18 21:36:15 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\cases.php 10
+ERROR - 2016-01-18 21:36:16 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:16 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-18 21:36:16 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-18 21:36:16 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:16 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:16 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-18 21:36:16 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-18 21:36:17 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:17 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-18 21:36:17 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\decoration.php 10
+ERROR - 2016-01-18 21:36:20 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:22 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:22 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\feedback.php 10
+ERROR - 2016-01-18 21:36:22 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\feedback.php 10
+ERROR - 2016-01-18 21:36:22 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:25 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:27 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:30 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:30 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\feedback.php 10
+ERROR - 2016-01-18 21:36:30 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\feedback.php 10
+ERROR - 2016-01-18 21:36:30 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:32 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:32 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\cases.php 10
+ERROR - 2016-01-18 21:36:32 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\cases.php 10
+ERROR - 2016-01-18 21:36:35 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:36:35 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\article.php 10
+ERROR - 2016-01-18 21:36:35 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\article.php 10
+ERROR - 2016-01-18 21:42:01 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:42:02 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:42:03 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:42:03 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:42:03 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:42:03 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\cases.php 10
+ERROR - 2016-01-18 21:42:03 --> Severity: Notice  --> Undefined variable: content C:\wamp\www\PCMS\site\views\cases.php 10
+ERROR - 2016-01-18 21:42:04 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:42:04 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:42:05 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2016-01-18 21:42:05 --> Language file contains no data: language/zh_CN/common_lang.php
