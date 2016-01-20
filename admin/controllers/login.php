@@ -55,7 +55,7 @@ class Login extends Base_Controller
 					$this->input->set_cookie($cookie2);
 			}
 
-
+			var_dump($session);
 			$this->mlogs->add('login','manager ID '.$this->session->userdata('mid').': 登录成功！');
 		
             if ($this->input->get('url')) {
